@@ -1,0 +1,29 @@
+DATA ANALYSIS:
+	- It is a process of cleaning, modifying, gathering, processing the data to gain some meaningful insight to solve some complex problems and to help our stakeholders in decision making.
+
+
+WHAT IS DATA:
+	- DATA are simply facts or figures - bits of information, but not information itself. 
+	- When data are processed, interpreted, organized, structured or presented so as to make them meaningful or useful, they are called INFORMATION.
+	- The process of converting "Data" to "Information" is called DATA PROCESSING.
+
+
+DIFFERENT TYPES OF DATA:
+	1. STRUCTURED DATA		: Any data that is in form of tabular form (Rows and Columns), each column will have it's own meaning. The sturctured data is used as an input of data analysis.
+
+	2. UN-STRUCTURED DATA	: Data which is not structured nor semi-structured, Examples: Images, Audio files, Voice command.
+
+	3. SEMI-STRUCTURED DATA	: Data which have some kind of structure, that structure is not always fixed it'll keep on changing from one data source to another. Example: Machine log, transaction log etc.
+
+
+TYPE OF DATA ANALYSIS:
+	1. DESCRIPTIVE	: Helps you understand what has happened in the past, gives you an analysis of past data. 
+	Ex: A company wants to understand how there revenue has been changing year on year.
+
+	2. DIAGNOSTIC	: Helps you understand why exactly that particular thing happened (root cause analysis). 
+	Ex: Let suppose the company revenue is going down and company wants to understand why it's going down.
+
+	3. PREDICTIVE	: Helps you understand what will happen in the future. Helps in finding out the expected or forecasted value of something based on certain factors or features of particular thing.
+	Ex: A company wants to understand how there revenue has been changing year on year and based on that it'll be predicting what can be the future revenue.
+
+	4. PRESCRIPTIVE	: Combination of all above 3 types of data analysis to prescribe or recommend a particular action or strategy, after gathering and doing analysis we can explain our stakeholders that what can be done to increase the revenue of the company in coming years. 

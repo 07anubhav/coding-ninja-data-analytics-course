@@ -1,0 +1,93 @@
+Which of the following describes Data Analysis?
+Collecting, modifying, and processing the data to gain meaningful insight and drive informed decision-making.
+
+
+The main purpose of Data Analysis is to extract useful _____ from _____ and make decisions based on the insights.
+information, data
+
+
+Select the correct answer.
+S1: Data is a collection of facts.
+S2: Information is processed Data.
+Both are True
+
+
+The process of converting Data to Information is known as
+Data Processing
+
+
+Choose examples of Structured Data
+Tabular data about the contact details of the employees in an organization.
+Spreadsheet (such as Excel) containing the age information of students.
+
+
+Match the features with the corresponding type of data analysis.
+A. Predictive analysis 				1. Why
+B. Prescriptive analysis 		 	2. Suggestion
+C. Diagnostic analysis 				3. Past (What)
+D. Descriptive analysis 			4. Future
+(A-4)(B-2)(C-1)(D-3)
+
+
+Image, Text, and Audio data are forms of
+Unstructured Data
+
+
+Scenario 1: You visit a doctor. The doctor takes your BP test, comes up with new results compared to the last report of the same test, and tries to get an idea of why you are feeling sick.
+Scenario 2: You visit a doctor. To proceed, the doctor will do a different kind of analysis by asking questions like “What was your last BP?” or “About The Medicine you took.”
+Diagnostic analysis, Descriptive analysis
+
+
+True or False:
+An E-Commerce clothing company collects data about you (e.g., from your social media profiles) and summarises past data (e.g., your previous purchases from the site). The company is doing a Diagnostic Analysis.
+False
+
+
+Fill in the blanks:
+Google Maps, giving traffic conditions fall under _____ analysis and forecasting the travel time is _____ analysis.
+descriptive, predictive
+
+
+True or False:
+Predictive analysis is the frontier of data analysis, combining the insight from all previous analyses to determine the course of action to take in a current problem or decision. It determines what should be done.
+False
+
+
+True or False:
+Descriptive analysis answers “what happened” by summarizing past data.
+True
+
+
+How does Diagnostic Analysis help in business?
+It helps in finding the root cause of the problem 
+It helps in understanding the reason for having anomalies 
+
+
+Select the correct answer:
+S1: Analytics can help the business understand the customers' needs and buying patterns.
+S2: Major E-commerce websites/companies never use customer targeting methods to reach their customers.
+S1: True, S2: False
+
+
+A company wants to understand how revenue is changing every year. Match the following:
+A. Descriptive analysis     	1. Forecasting FUTURE trends
+B. Diagnostic analysis       	2. Finding the root cause
+C. Predictive analysis       	3. Analyzing the PAST performance
+D. Prescriptive analysis     	4. Examining the data & provide recommendations
+A-3, B-2, C-1, D-4
+
+
+Identify the correct order of the Data Analysis Steps.
+Data Collection > Data Filtering > Data Processing > Data Modelling > Insight & Information > Decision-Making
+
+
+Apply all your knowledge and match the following. In the healthcare domain:
+A. Structured             	1. Temperature / Oxygen by time logs
+B. Unstructured         	2. Images, sonography, sensors
+C. Semi-Structured   		3. Patient's previous Health Records
+A-3, B-2, C-1
+
+
+True or False:
+By using all the previous analysis processes, prescriptive analysis helps the business or organization to make a sound decisions on their various activities.
+True
