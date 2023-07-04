@@ -1,0 +1,100 @@
+Select the first two steps of the Data Analysis Framework.
+Understanding the Business problem
+Converting Problem in Data Analysis Terms
+
+
+Fill in the blanks:
+Business problem understanding involves having a set of _____ and analyzing the _____ to get an idea of the required work.
+questions, data
+
+
+Choose the correct statements.
+Data Analysts may not be well-equipped with all the knowledge required to solve business problems.
+To solve the problem, Data Analysts should consult with stakeholders to gain knowledge.
+
+
+Select the third and fourth steps of the Data Analysis Framework.
+Business Problems Assumptions and Validation
+Data Acquisition
+
+
+Select all the correct “Area” classifications based on the House Price dataset.
+Bay Area
+Near Ocean
+Inland
+
+
+Fill in the blanks using the same word:
+In the House Price dataset, the question was to find rich people. To solve this problem, you have to set a _____ for salary. Above that _____ salary, people are rich.
+threshold
+
+
+Select the steps which are not part of the Data Processing process.
+Data Analysis
+Storytelling
+
+
+State True or False: 
+There should be a common attribute in two files to merge data.
+True
+
+
+For the following data,
+Table 1 columns - Longitude, Latitude, Area
+Table 2 columns - Longitude, Average Income, Average House Price, Number of bedrooms.
+As a Data Analyst, you will merge the two tables based on which columns?
+Longitude
+
+
+State True or False: 
+Handling the missing value is required as it impacts the final analysis. It might give wrong insight if data is not available.
+True
+
+
+Fill in the blanks:
+In a Hospital record dataset, the “Admit date” column is in ‘String’ format. For better Data Analysis, it will be better to transform the “Admit date” column to _____ datatype.
+Date
+
+
+State True or False: 
+In the dataset, there are chances some data is not available for any column. That data is known as Outliers.
+False
+
+
+Select the correct methods to handle the missing values in a dataset.
+If missing value rows are too few compared to the whole dataset, delete those rows.
+Putting zero or Imputing the value with mean/mode.
+
+
+_____ refers to the building of systems to enable the collection and usage of data.
+Data Engineering
+
+
+While doing the analysis based on the House Price dataset, the Analyst came up with two insights. Select the correct insights.
+Bay area, High house prices
+Bay area, High-income
+
+
+State True or False: 
+Data analytics works by analyzing large data sets with various tools and methods.
+True
+
+
+Match the tools with the process for which they are mainly used.
+A. Data acquisition             1. Powerpoint
+B. Data Preparation           	2. Tableau
+C. Data Analysis                3. Python, R
+D. Analysis Presentation     	4. ETL Tools
+A-4, B-3, C-2, D-1
+
+
+You have all the required insights after doing the analysis. What should be your next step?
+Storytelling
+
+
+Which step of the Data analysis framework uses tools like SSIS, Informatica, Alteryx, and Tableau?
+Data Acquisition
+
+
+Identify the correct order of the Data Analysis Framework steps.
+Business Problem Understanding > Converting Problem in Data Analysis Terms > Business Problems Assumptions > Data Acquisition > Data Processing > Data Analysis > Storytelling/Presentation

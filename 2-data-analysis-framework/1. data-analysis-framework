@@ -1,0 +1,63 @@
+- A framework is a structure that you can build software on. It serves as a foundation, so you’re not starting entirely from scratch. Frameworks are typically associated with a specific programming language and are suited to different types of tasks.
+
+- Let’s say you’re building a house. You could pour the foundation and frame the house yourself. It would take a lot of time, but you could do it. If all of that were already done for you, though, it would save you quite a bit of effort — especially if it was done by expert home builders.
+
+- In software development, a framework serves a similar purpose. It’s designed and tested by other Software Developers and Engineers, so you know it’s a solid foundation.A house isn’t complete with just the framework, though. Similarly, a framework in software development is a starting point, but you add higher-level functionality to it to make it work.
+
+===========================================================================================================================================
+
+DATA ANALYSIS FRAMEWORK:
+	- This is a framework where a data analyst needs to follow each and everystep so they can solve any given data analysis problem.
+	- Steps to be followed:
+		# Business Problem Understanding (Understand the buisness problem)
+			* Sometimes the data analyst may not be well equipped with all the knowledge that is required to solve the problem. For example a data analyst might have come from financial background but the problem he/she is trying to solve is healthcare.
+
+			* So, the best way to tackle this problem is to consult with your stakeholders to gain ample amount of knowledge that would be required to solve the given data analysis problem.
+
+		# The Problem in Data Analysis Terms (To convert a business problem into data analysis terms)
+			* Let suppose our stakeholdes gave us a plain text "What are the areas where the highest income & the house prices or luxury house are loacated?". So, now we have to understand what needs to be done to solve this particular problem. Like we have to estimate like for a luxury house what should be the threshold price value, then to classify a particular income as a luxury income what should be the threshold value.
+
+		# Business Problems Assumptions (To validate any kind of assumption or hypothesis that we will have it in our solution)
+			Problem:
+			What are the areas where the highest income & the house prices or luxury house are loacated?
+
+			Income > Average income (threshold value for high income)
+			House Prices > Average house prices (threshold value for luxury house)
+
+			But our stakeholders want Instead of Average income they want any income which is higher than the top 5% of the income, and slly any house price which is among than top 10% should considered as luxury house. So, there can be different threshold value can be there that's why those needs to be validated
+
+		# Data Acquisition (To identify and to see which all data points will be required to solve given problem)
+			* So, to solve this problem we need to have Income of the people of particular area, House prices of that area, Region (near to ocean, in the city, outside the city etc..)
+			* This is done by some kind of ETL (Extract Transform load) tool
+			* The data can be in various format it can be in a flat file or csv file or in database in some table, so all of this can be combined into one form and can we used for data processing.
+
+		# Data Preparation (Data Processing)
+			* Can be done via various tools or language like (ETL, Python, R, SAS, Excel)
+			* Substeps of data processing:
+				1. Data merging				: Let suppose our data is present in multiple sources, so to perform the analysis we need to merge the data together and come up with one table to solve the given problem.
+				2. Data type check			: There will be various columns will be present in our table so we need to make sure each column should have correct format of data. Ex: Age should be int, Name will be string or char.
+				3. Handling missing values	: When certain values are missing in the table, then what step we can take to fill/remove those missing values.
+				4. Handling outliers		: 
+				5. Feature engineering		: It is creation of new feature using your existing feature that you have.
+
+
+			Example:
+				Table 1: LON, LAT, REGION
+				Table 2: LON, LAT, AVG INCOME, AVG HOUSE PRICE, NO OF BEDROOMS
+				1. Then we will merge these 2 tables, this is called Data merging.
+				
+				2. LON, LAT will be numerical values | AREA will be string values | AVG INCOME, AVG HOUSE PRICE will be numeric values | NO OF BEDROOMS will be int/numerical values, so this is Data type check.
+				
+				3. There will be missing values in the table, so we have identify what could be the best way to handle that missing value so that it dosen't impact our analysis. Example: If we have 2 million records in our data and few have missing values in them so we can remove those rows from the table itself. But if we have 200 records 5 missing values are there then we have to impute the value means replacing with something other value.
+
+				4. Let suppose we have Avg income and income of residence in a particular area and let suppose a billionare is also living in that particular area the definitely his income will be way to much than others. So, if we remove/keep it like as it is that rec will make a huge difference in total output. So, the best way to handle outlier is to perform the analysis by keeping as well as by removing the outliers
+
+				5. So, we have added a new column that will tell us ratio of AVG HOUSE PRICE/NO OF BEDROOMS
+
+		# Data Analysis
+			* Can be done via various tools or language like (ETL, Python, R, SAS, Excel, Visualization tool like Tableau and Power BI)
+			* There are various methods through which analysis can be done on the processed data. Statistical methods, regression or machine learning algorithms can be used.
+			* After analysis like applying diff algorithms and statistical model we found out that (Conclusion) Bay area has higher income as well as higher house price
+
+		# Storytelling/Presentation	
+			* Presentation tools like Powerpoint, Excel, Tableau.
