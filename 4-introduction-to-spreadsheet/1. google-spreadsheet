@@ -1,0 +1,14 @@
+To freeze rows so while sorting it wont affect that row	: select a row -> got to view -> freeze -> 1 row 	
+
+To find and replace the data							: CTRL + F
+
+Paste Special: If in a cell u have written a formula and u have got some value, but when u'll copy and paste it by CTRL+C and CTRL+V it'll only paste the formula. So we have to use "paste special" option by right clicking on any cell.
+
+Filter- If we want to find and pinpoint multiple values	: anywhere select in the table -> goto Data in menu bar -> create a filter
+
+Removing Duplicate										: goto Data in menu bar -> data cleanup -> remove dupliacte
+
+Conditional formatting									: goto Format in menu bar -> conditional formatting
+
+To create a visulation chart							: select the column value range -> goto insert -> chart
+

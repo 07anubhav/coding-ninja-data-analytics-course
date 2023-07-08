@@ -28,7 +28,7 @@ DATA ANALYSIS FRAMEWORK:
 
 		# Data Acquisition (To identify and to see which all data points will be required to solve given problem)
 			* So, to solve this problem we need to have Income of the people of particular area, House prices of that area, Region (near to ocean, in the city, outside the city etc..)
-			* This is done by some kind of ETL (Extract Transform load) tool
+			* This is done by some kind of ETL ('Extract Transform load' tool is the process used to turn raw data into information that can be used for actionable business intelligence (BI))
 			* The data can be in various format it can be in a flat file or csv file or in database in some table, so all of this can be combined into one form and can we used for data processing.
 
 		# Data Preparation (Data Processing)

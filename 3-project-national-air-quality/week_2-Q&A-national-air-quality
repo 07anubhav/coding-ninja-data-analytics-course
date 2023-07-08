@@ -1,0 +1,52 @@
+What type of dataset is the given National Air Quality dataset?
+Structured Data
+
+
+The datatype for the “Date” column is in “string” format. As a Data Analyst, what will be your next step?
+Convert the Date column from “string” to “date” datatype
+
+
+The dataset needs to be validated before starting the Analysis. The given dataset contains:
+Both missing values and null values
+
+
+All the columns are now in the correct datatype format. Match the following:
+A. City				1. String
+B. Date				2. Float-point (float)
+C. PM10, PM2.5 		3. date
+D. AQI				4. Integer (int)
+A-1, B-3, C-2, D-4
+
+
+In the given dataset, select all the features (columns) which have missing values.
+PM2.5
+PM10
+NH3
+CO
+AQI
+AQI_Bucket
+
+
+Select the feature which has the most occurrences of missing values.
+NH3
+
+
+In the given dataset, select the feature which has Null values.
+NOx
+
+
+Complete the sentence:
+As a Data Analyst, you may not have an understanding of the Air Quality domain. According to the Data Analysis Framework, you will
+-consult with subject matter experts/stakeholders to gain knowledge
+
+
+Scenario 1: While going through the data you have observed and reported that sulphur dioxide (SO2), nitrogen dioxide (NO2), and suspended particulate matter (PM) are causing the most harm. The Central Pollution Control Board wants to understand the root cause or the main factors that influence the formation of sulphate, nitrate, and suspended matter.
+Scenario 2: The Central Pollution Control Board wants to understand the trends of various air pollutants like sulphur dioxide (SO2), nitrogen dioxide (NO2), suspended particulate matter (PM), ozone (O3), and carbon monoxide (CO).
+Select the correct answer. The kind of analysis in these scenarios are:
+S1 is diagnostic analysis, and S2 is descriptive analysis
+
+
+Scenario 1: After going through the data of a certain period and analysis, the Board is now able to slowly start taking control of the situation and improve air quality
+Scenario 2: After various research, you have developed an air pollution model that will forecast the air pollution level in different regions.
+Select the correct answer. The kind of analysis in these scenarios are
+S1 is Prescriptive analysis, S2 is Predictive analysis

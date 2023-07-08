@@ -1,0 +1,47 @@
+Help the company manager find the following employee's names:
+1. Youngest employee
+2. Eldest employee
+3. Employee with the lowest salary
+4. Employee with the highest salary
+1. NancyBaker, 2. CarolMurphy, 3. DianaPeterson, 4. DianeEvans
+
+
+Match the following:
+1. MIN(H2:H14)					A. 104.77
+2. COUNTIF(F2:F14,"F")			B. 102440.6154
+3. AVERAGE(L2:L14) 				C. 22.14
+4. SUMIF(F2:F14,"F",K2:K14)		D. 8
+1-C, 2-D, 3-B, 4-A
+
+
+Select the correct formula that will create a new column named HealthFlag in the given dataset. The values in this column should be filled based on the weight of the employees. If the weight is greater than or equal to 60kg, update the data in the new column as unhealthy otherwise healthy.
+=IF(I2>=60,"UNHEALTHY","HEALTHY")
+
+
+Help the manager to find the following employee's name
+1. With age less than 40 and the highest salary
+2. With age more than 40 and the lowest salary
+1. DianeEvans, 2. JoeRobinson (added one more column to check the age and then sorted the value accordingly)
+
+
+In the marketing department, total salary taken by Female employees is higher than total salary taken by male employees.
+True
+
+
+What is the total salary taken by
+1. Female employees in the HR department
+2. Male employees in the Developer department
+1. 154991, 2. 133120
+
+
+Which of the following is the correct histogram representation for people having salaries in the range 40000-60000 and are unhealthy?
+A (added 3 new columns, 1st col salary >= 40000, 2nd col salary <=60000, 3rd col if both col has value 1 then keep those only)
+
+
+
+Based on the "HealthFlag" column. Find the following details and choose the correct answer
+1. Sum of salaries of all the "Healthy" people.
+2. Sum of salaries of all the "Unhealthy" people.
+3. Sum of Ages of all the "Healthy" persons in the company.
+1. 817827, 2. 513901, 3. 299.73 (Use the SUMIF function.)
+

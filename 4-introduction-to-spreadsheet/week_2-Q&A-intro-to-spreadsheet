@@ -1,0 +1,108 @@
+What is the advantage of using a Spreadsheet for Data Analysis?
+Instant Visualization of the data
+
+
+How is data organised in Spreadsheet?
+Rows and columns
+
+
+Which of the following is the intersection of a row and column?
+Cell
+
+
+How do you wrap the text in a cell of a spreadsheet ?
+Text wrapping
+
+
+State True or False
+S1: Each worksheet can contain multiple workbooks.
+S2: Each workbook can contain multiple worksheets.
+S1 is False, S2 is True
+
+
+________ is a collection of cells organized in rows and columns where you keep and manipulate the data.
+Worksheet
+
+
+In Spreadsheets, We use ______ to represent Columns and __________ to represent rows.
+“Alphabets” and “Number”
+
+
+Ctrl+P or Cmd+P is use for which of the following
+To Print
+
+
+How do we Sort the data in a spreadsheet?
+Select range of cells to sort > Click on Data menu on the menu bar > Select Sort range option.
+
+
+The process of identifying specific rows and columns so that certain columns and rows are always visible on the screen is called?
+Freezing
+
+
+When Sorting is applied on any column, it only sorts the particular column not the sheet.
+False
+
+
+Which shortcut will help us to find any keyword?
+Ctrl + F or Cmd+F
+
+
+What are the possible paste options in excel?
+Formula only
+Values only
+Format only
+
+
+How can we find duplicates in the dataset?
+Data->Data Clean-up
+
+
+How do we put color formatting to a set of data with darker color to higher values and lighter color to lower values?
+Color Scale
+
+
+How do you change the range of cells that a Conditional Formatting rule applies to?
+In the Conditional Formatting Rules Manager dialogue box, edit the cell range for the rule in the Applies To section.
+
+
+In Spreadsheet , the function must start with the symbol __________
+=
+
+
+What does the SUMIF function do?
+Adds up cell values based on a condition
+
+
+Which of the following is the correct way to write the IF function?
+=IF(condition, condition if true, condition if false)
+
+
+Which of the following is not a function in a spreadsheet?
+AVG
+
+
+Suppose today is the Republic Day of India and the year is 2023, then the function =DAY(TODAY()) in excel will give which of the following output?
+26
+
+
+A person named “Joe Robinson” has an entry in cell A1, then the formula =MID(A1,2,2) will give which of the following output?
+oe
+
+
+Which would you choose to create a chart?
+Insert -> Chart
+
+
+The part of the chart area that displays data is?
+Plot Area
+
+
+A Histogram is:
+Frequency graph
+
+
+We can use a Spreadsheet for :
+Doing Calculations
+Plotting Graphs
+Manipulating Data
