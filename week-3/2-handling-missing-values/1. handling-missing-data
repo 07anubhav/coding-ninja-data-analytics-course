@@ -1,0 +1,17 @@
+HANDLING MISSING DATA:
+	# Why it is required to handle the missing value?
+		* Many machine learning algorithm requires a complete data set
+		* Handling the missing values will impact the mathematical or analytical results for the business problem
+
+	# How missing values are represented
+		* Blank and Null
+		* Space
+		* Special characters
+		* Random Numbers
+		* Big Value
+
+		* =COUNTA() : is the function that counts the number of values in a particular column, it only counts if there is value in that particular cell
+
+	# If 2-3% of data is having missing values, the we will do Data Imputing (That means giving some values to the missing cells).
+
+VARIANCE: If suppose we have given a particular value then how other values will be varying from that particular one value

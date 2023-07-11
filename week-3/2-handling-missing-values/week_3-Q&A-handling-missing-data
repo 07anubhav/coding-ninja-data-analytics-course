@@ -1,0 +1,69 @@
+Complete the sentence: The TYPE function in Google spreadsheets returns
+a number corresponding to the datatype
+
+
+Try it yourself in Google spreadsheets and match the following:
+Hint: Refer to the DataTypes note.
+1. =TYPE(“Coding”)    A. 16
+2. =TYPE(6/3/23)      B. 2
+3. =TYPE(TRUE)        C. 4
+4. =TYPE(NA)          D. 1
+(1 - B), (2 - D), (3 - C), (4 - A)
+
+
+What does it mean if the TYPE function returns 64?
+The data type of the variable is Array
+
+
+State True or False.
+The accuracy of the data type assigned by Google Sheets can always be guaranteed/correct.
+False
+
+
+In a given dataset, "marketing campaign", the datatype of the “Income” column is Number(1). What is the process for converting the datatype of “Income” to Text/String(2)?
+Format > Number > Plain text
+
+
+Why is it required to handle missing values?
+Machine learning algorithms require a complete dataset
+Missing values can impact the mathematical or analytical results
+
+
+It is not important to check the data documentation or explore the data visually or programmatically to identify the representation of missing values and handle them appropriately in data analysis.
+False
+
+
+How missing values are represented?
+Blank
+Whitespace
+Special Characters
+
+
+How does the COUNTA function help us in finding the number of missing values in a particular column?
+COUNTA returns the count of the non-blank cells and then by subtracting this from the total number of rows, we can find if any cells have missing values.
+
+
+State True or False
+S1: Missing numerical data can be replaced with a statistical imputation using the average/mean.
+S2: Missing numerical data can be replaced with the most common value in the column.
+S1 is True. S2 is False
+
+
+State True or False
+Standard deviation will show how the data points are spread around the mean value.
+True
+
+
+Which of the following is true in case of Mean and Median:
+Median is the number that is found in the middle of any sorted dataset. 
+Mean is the average of all the value is present on the dataset 
+
+
+A dataset is given to you which contains information about the salary of the employees depending on their work experience. Due to some technical errors, some data got deleted from the experience column. Which technique will you use to fill up the missing data?
+Replace the missing values with statistical values depending on various factors.
+
+
+State the True or False
+S1: If the Standard deviation is similar to or near the Average, you can replace the missing value with the Median.
+S2: If the Standard deviation is significantly less than the average value or has a small value. In that case, values are clustered near the Average. In these scenarios, you can replace the missing value with the Average.
+Both statements are True.

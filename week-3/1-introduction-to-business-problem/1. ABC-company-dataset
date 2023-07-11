@@ -1,0 +1,18 @@
+marketing_campaign_df1
+ID					Customer Identification number
+Year_Birth			Year of birth
+Education			Education detail of customer
+Marital_Status		Marital status of customer
+Income				Income of the customer
+Kidhome				Number of kids at home
+Teenhome			Number of teens at home
+Dt_Customer			Customer registration date
+Recency				Number of days since last purchase
+
+
+marketing_campaign_df2
+ID					Customer Identification number
+MntFruits			Amount spent on fruits
+MntSweetProducts	Amount spent on sweet product
+NumWebPurchases		Number of purchase through Web
+NumStorePurchases	Number of purchase through Store

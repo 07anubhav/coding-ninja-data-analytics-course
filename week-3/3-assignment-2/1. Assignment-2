@@ -1,0 +1,56 @@
+1 . Dataset 1:  St_detail
+s_id 			- Serial Number
+gender 			- Gender (Male/Female)
+ssc_p 			- Secondary Education percentage- 10th Grade
+ssc_b 			- Board of Education- Central/ Others
+hsc_p 			- Higher Secondary Education percentage- 12th Grade
+hsc_b 			- Board of Education- Central/ Others
+hsc_s 			- Specialisation in Higher Secondary Education
+degree_p 		- Degree Percentage
+degree_t 		- Under Graduation(Degree type)- Field of degree education
+specialisation 	- Post Graduation(MBA)- Specialisation
+mba_p 			- Percentage in MBA.
+ 
+
+2. Dataset 2: Placement Detail
+s_id 			- Serial Number
+work_ex 		- Work Experience(Yes/No)
+etest_p			- Employability test percentage ( conducted by the college)
+status 			- Current Placement Status (Placed/Not Placed)
+Salary			- Salary offered by corporate to candidates
+
+-----------------------------------------------------------------------
+State True or False:
+S1: As a data analyst, the first step to solving any problem is understanding the business problem in detail.
+S2: The analyst converted the business problem into Analytics terms that “College can improve the placement if they can create admission criteria. Give admission to the people who fall into the criteria.”
+S3: The Analyst needs to analyze the student’s data, including placement data and the student’s past record, to suggest any admission criteria to improve the placement.”
+All True
+
+
+The MBA college provides you with both the placement details and the student's personal details. Now as an analyst, what is the ideal next step?
+Merge the dataset
+
+
+Based on the Campus Recruitment Dataset.
+The dataset contains two worksheets, one with academic information of all students and the other with placement data of each student.
+You need to join both sheets using the VLOOKUP function to answer any specific question.
+How many female students got placed?
+48
+
+
+What are the marks of Anne McFarland (student name) in the placement test?
+78.74
+
+
+Match The Following:
+What is the datatype of the data present in the following columns? Match the following.
+            1. Name                     A. 1 (Number) 
+            2. mba_p                   	B. 2 (String) 
+            3. specialization 
+            4. degree_p 
+1-B, 2-A, 3-B, 4-A
+
+
+In the “Placement_detail” spreadsheet, select the columns' names with missing values.
+etest_p
+Salary

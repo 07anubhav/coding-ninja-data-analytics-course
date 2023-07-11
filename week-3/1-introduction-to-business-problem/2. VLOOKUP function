@@ -1,0 +1,20 @@
+VLOOKUP : Vertical lookup
+		: VLOOKUP function looks up a value in the first column of a given range and returns a value in the same row from another column. The letter "V" stands for "vertical" as it searches for the value in the vertical direction (column).
+
+=VLOOKUP(SEARCH KEY, RANGE, INDEX, IS SORTED)
+	
+SEARCH KEY	: it's key identifier
+RANGE		: from where we need to pull the data
+INDEX		: which columns you need 
+IS SORTED	: it ask that do you want to sort the data before joining it?
+			  '0' means NOT SORT, based on value of ID
+			  '1' means TO SORT, based on position of ID
+
+IMPORTRANGE	: it is used when the other table is present in the other workbook, use in RANGE
+
+We use '$' sign as like A2:E2241 is the range that we want to keep constant for all the rows, so to keep it constant we need to up a $ sign $A$2:$E$2241. That means we are freezing that particular cell value.
+
+=ARRAYFORMULA()	: We want to apply the particular VLOOKUP formula to the complete row that we have give in the VLOOKUP function
+
+FORMULA:
+=ARRAYFORMULA(VLOOKUP(A2,IMPORTRANGE("https://docs.google.com/spreadsheets/d/1cPj3vL03NUeC5PvkC6GWOr_f5eVXD5j1gviJr96GIqw/edit#gid=786551142","marketing_campaign_df2!$A$2:$E$2241"),{2,3,4,5},0))

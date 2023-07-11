@@ -1,0 +1,105 @@
+What type of company is ABC Food Company?
+Food Manufacturing and Distribution
+
+
+What type of products does ABC Food Company sell?
+Both fruit-based and sweet products
+
+
+What kind of data does ABC Food Company keep track of?
+Both customer data and sales data
+
+
+What is the Customer Churn problem that ABC Food Company is facing?
+Customers are discontinuing the purchase of their products.
+
+
+What teams does ABC Food Company have?
+Various teams, including management, production, marketing, analytics, growth, consumer, and sales
+
+
+Why is ABC Food Company exploring strategies to mitigate the Customer Churn problem?
+Because the issue could impact the sales and profitability of their new product.
+
+
+ABC Food Company's marketing team wants to target people who are more likely to buy their new sweet product. They have collected customer data such as age, gender, and location. Which of the following strategies can the marketing team use to target potential customers?
+Targeting customers of a specific gender.
+Targeting customers of a specific age group.
+Targeting customers based on their location.
+
+
+ABC Food Company's management team is concerned about the increasing customer churn rate, which could impact the sales and profitability of their new sweet product. Which of the following strategies can the management team use to mitigate the customer churn problem?
+Providing customer service training to their employees.
+Offering discounts and promotions to loyal customers.
+Improving the quality of their products.
+
+
+Select only the "Customer Demographic Details" features from the given options.
+Year of Birth 
+Education
+Number of Kids
+
+
+State True or False:
+It is not necessary to transform the problem into a data analysis format to understand what type of data will aid in resolving the issue.
+False
+
+
+Fill In The Blanks:
+In customer analytics, Recency refers to the amount/duration of time since a customer's _____ interaction with a brand.
+last
+
+
+What was the primary issue encountered by the Data Analyst during data processing?
+Required data points in different sheets.
+
+
+What was the solution proposed by the instructor to merge the data in spreadsheets?
+VLOOKUP
+
+
+VLOOKUP function is used to?	
+Merge two files using a common key
+
+
+What does the Vlookup error mean?
+#N/A represents, Numbers formatted as text
+#REF! Pointed cell no longer exists
+
+
+Select the correct option:
+S1: VLOOKUP function is case sensitive.
+S2: VLOOKUP function is case insensitive.
+S3: VLOOKUP function cannot look to its left and always search for the range on the right side of the 'search_key' column.
+S4: VLOOKUP function can look to its left and search for the range of the 'search_key' column.
+S2 and S3 are True
+
+
+What does the is_sorted parameter do?
+Indicates whether the lookup column is sorted or not .
+
+
+You have a sales data table with two columns: "Product Name" and "Sales Amount". You want to create a formula to lookup the sales amount for a specific product. Which Google Spreadsheets function should you use?
+VLOOKUP
+
+
+Write the =VLOOKUP() function to Find out the age of the employee corresponding to employee with id 3.
+Name	ID	Age
+Rahul	1	42
+Aman	2	31
+Mukta	3	27
+Sahil	4	38
+Varun	5	45
+=VLOOKUP(3,B1:C6,2,0)
+
+
+Write =Vlookup() function to find out the id of the employee whose name is Sahil.
+=VLOOKUP("Sahil",A1:C6,2,0)
+
+
+Write =Vlookup() function to fill up the Salary column (D column) using G and H column in the given Dataset. (Only write syntax for D2 column and consider sheet name is "Sheet1" only)
+=VLOOKUP(B2,'Sheet1'!G1:H6,2,0)
+
+
+In the VLOOKUP function what does the argument index means?
+Number of columns in the selected table_array where the lookup result is located.
