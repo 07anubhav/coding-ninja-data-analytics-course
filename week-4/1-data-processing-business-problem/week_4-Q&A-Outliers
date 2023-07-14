@@ -1,0 +1,69 @@
+What is an outlier in Statistics/Data Analytics?
+A value that is far from the other values in a dataset
+
+
+State True or False:
+Before removing or including the outlier in any analysis, Data Analyst should confirm the scenario with the stakeholder.
+True
+
+
+How do outliers affect the mean of a dataset?
+Outliers may increase or decrease the mean, depending on their value and the dataset size.
+
+
+Which of the following is not a way to deal with outliers?
+Ignoring the outlier and using the mean or standard deviation calculated without it
+
+
+A dataset contains the following values: 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, and 200. Which value is an outlier?
+200
+
+
+To find outliers, which visualisation method is preferred?
+Candlestick Chart
+
+
+S1: The value of Quartile 2 (Q2) is not equal to the median.
+S2: Interquartile range (IQR) can give you an overview of where most of your values lie in the range and how they are clustered between Q3 and Q1.
+S1 is False, S2 is True
+
+
+Which one of the following is correct format for finding Quartile?
+=QUARTILE(data,Quartile_number)
+
+
+Match the following terms:
+A) Q1              	1. The median of the upper half of a dataset. 
+B) Q2              	2. The difference between Q3 and Q1.
+C) Q3              	3. The maximum value of a dataset.
+D) Qmax         	4. The median of a dataset.
+E) IQR             	5. The median of the lower half of a dataset.
+A-5, B-4, C-1, D-3, E-2
+
+
+What is the difference between Q2 and Q1?
+Q2 is the 50th percentile of the data, while Q1 is the 25th percentile
+
+
+Arrange the following steps in the correct order to find the outlier.
+S1: Find IQR for the required column.
+S2: Calculate the number of outliers present. (Value 1 represents Outlier)
+S3: In the new column, apply the filter or =COUNTIF()
+S4: In new column apply this condition, =If( OR(Cell_valueQ3+1.5IQR),1,0)
+S5: Calculate all the quartile values(Q1,Q2,Q3)
+S5 > S1 > S4 > S3 > S2
+
+
+What are the quartiles in a dataset with ten observations if the data are sorted in increasing order?
+Dataset: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Q1 = 3.25, Q2 = 5.5, Q3 = 7.75
+
+
+How is the IQR used to identify outliers in a dataset?
+Any value greater than Q3 + 1.5IQR or less than Q1 - 1.5IQR is considered an outlier
+
+
+Using the Quartile method, find out how many outliers are present in the following columns.
+A. Amount of Sweet products
+B. Number of Web purchases
+248,4

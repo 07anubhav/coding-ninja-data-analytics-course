@@ -1,0 +1,67 @@
+Choose the correct columns for applying the QUARTILE function based on the dataset.
+ssc_p
+mba_p
+degree_p
+hsc_p
+Salary
+etest_p
+
+
+What are the values of
+A. Quartile 1,
+B. Quartile 3, and
+C. IQR
+in the hsc_p column?
+A: 60.9, B: 73, C: 12.1
+
+
+What are the values of
+A. Quartile 1,
+B. Quartile 3, and
+C. IQR
+in the degree_p column?
+A: 61, B: 72, C: 11
+
+
+Match the following
+      A. Q1 - 1.5IQR in the hsc_p                 	1. 42.75
+      B. Q3 + 1.5IQR in the hsc_p                 	2. 44.5
+      C. Q1 - 1.5IQR in the degree_p            	3. 91.15
+      D. Q3 + 1.5IQR in the degree_p           		4. 88.5
+A - 1, B - 3, C - 2, D - 4
+
+
+Find the Q1 and Q3 percentile
+A. ssc_p column
+B. Mba_p column
+A: (60.6, 75.85), B: (57.9225, 66.2675)
+
+
+Calculate the following for etest_p
+1. Quartile 1 
+2. Quartile  3
+3. IQR
+4. Does any outlier exists in etest_p.
+1-60
+2-84
+3-
+
+
+By applying feature engineering on which of the following columns will not help us in performing data analysis for the given problem statement where we need to check student's past record for the admission procedure for an MBA college?
+Mba_p
+
+
+Calculate the following for etest_p
+1. Quartile 1 
+2. Quartile  3
+3. IQR
+4. Does any outlier exists in etest_p.
+1- 60, 2- 82.83, 3- 22.83, 4- No (filled the missing values with Mean value as Standard deviation was less than mean value)
+
+
+What is the percentage of students who cleared the placement test? By considering the criteria of clearing the test, it more than 50 %.
+99.06% (filled the missing values with Mean value as Standard deviation was less than mean value)
+
+
+What is the percentage rate of the students who got placed after clearing the placement test.
+69.48% (filled the missing values with Mean value as Standard deviation was less than mean value)

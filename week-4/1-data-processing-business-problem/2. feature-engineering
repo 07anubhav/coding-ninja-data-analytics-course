@@ -1,0 +1,3 @@
+FEATURE ENGINEERING:
+	# It is the creation of new features to enrich the data, using the existing column
+	# For an example you have been given DATE_OF_BIRTH column using that column you can find out the age of the particular person

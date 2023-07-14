@@ -19,7 +19,7 @@ etest_p			- Employability test percentage ( conducted by the college)
 status 			- Current Placement Status (Placed/Not Placed)
 Salary			- Salary offered by corporate to candidates
 
------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 State True or False:
 S1: As a data analyst, the first step to solving any problem is understanding the business problem in detail.
 S2: The analyst converted the business problem into Analytics terms that “College can improve the placement if they can create admission criteria. Give admission to the people who fall into the criteria.”
@@ -54,3 +54,28 @@ What is the datatype of the data present in the following columns? Match the fol
 In the “Placement_detail” spreadsheet, select the columns' names with missing values.
 etest_p
 Salary
+
+
+In the “Placement_detail” spreadsheet, how many missing values are in the etest_p and the Salary columns?
+12, 67
+
+
+Select the correct option:
+A. Number of students who secure placements
+B. =VLOOKUP(B2,'Placement_detail'!A2:E216,{2,3,4,5},false)
+A - 148,B - #N/A
+
+
+Select the correct option:
+A. Number of girls that got placed after doing their MBA in Mkt&HR
+B. Number of students who have done their higher education in Science with more than 70% marks and are still not placed.
+C. Number of students with no work experience got placed.
+A-20, B-1 , C-84
+
+
+When working as a Data Analyst, managing missing values is necessary. There are missing values in the Salary column of the 'Placement_detail' spreadsheet.
+Read the following scenarios and choose the correct option.
+S1: The salary of the non-employed students is missing. What value will you use to fill up the missing data?
+S2: The salary of the employed students is missing. What value will you use to fill up the missing data?
+S1: 0, S2: 288655.4054
+

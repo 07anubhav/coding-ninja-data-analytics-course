@@ -1,0 +1,51 @@
+Let's understand what type of data analysis is done on different types of datasets:
+	# Continous Data
+		* Ex: Age, Amount of fruits
+	# Categorical Data
+		* Ex: Marital status, Gender, Education level
+
+TYPES OF ANALYSIS:
+	# Univariate Analysis
+	# Bivariate Analysis
+	# Multivariate Analysis
+
+
+UNIVARIATE ANALYSIS:
+	# For Contiuous Data 	: Mean, Mode, Median, Distribution of data, Using Histogram, Box Plot etc.
+	# For Categorical Data 	: Frequency table
+
+BIVARIATE ANALYSIS:
+	# For Contiuous Data 	: Scatter plot, Correlation
+	# For Categorical Data 	: Frequency table, Contigency table
+
+===========================================================================================================================================
+
+UNIVARIATE METHOD - CONTINUOUS:
+	# Univariate analysis helps us to answer the following few questions by the stakeholders:
+		* what is the distribution of the age of customer?
+		* what is the mean or average age of customer?
+		* what is the median income of the customer?
+
+	# Types of Univariate analysis that can be done on Continuous Features are as follows:
+		* Average/Mean
+		* Trim Mean 	: !!! This will actually help us by removing the outliers that may be present in the dataset.!!!
+						  Sort the data then remove few data from the top and bottom. Ex: remove the top most and bottom most data and then again take the mean.
+		* Median
+		* Min
+		* Max
+		* Standard Deviation
+		* Variance
+
+	# Distribution:
+		* Percentile (Quartile)
+		* IQR
+		* Box Plot
+		* Histogram
+			> Bin: After creating the histogram we will get the range of values, The bin column it is a range of values for a particular feature/column that how many data points are present in that particular range.
+		* Density plot
+
+===========================================================================================================================================
+
+UNIVARIATE METHOD - CATEGORICAL:
+	# Pivot Table:
+		* A PivotTable is a powerful tool to calculate, summarize, and analyze data that lets you see comparisons, patterns, and trends in your data .

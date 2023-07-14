@@ -15,3 +15,7 @@ HANDLING MISSING DATA:
 	# If 2-3% of data is having missing values, the we will do Data Imputing (That means giving some values to the missing cells).
 
 VARIANCE: If suppose we have given a particular value then how other values will be varying from that particular one value
+
+HOW TO IMPUTE MISSING VALUES?
+	# If the Standard deviation is similar/ near to Average or bigger value, then we replace the missing value with Median
+	# If the Standard deviation is less than the average value or has a small value that means values are clustered near to Average, then we replace the missing value with the Average

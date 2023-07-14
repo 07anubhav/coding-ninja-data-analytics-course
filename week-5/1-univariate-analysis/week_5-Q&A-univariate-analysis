@@ -1,0 +1,122 @@
+Which of the following is an example of categorical data?
+Gender
+
+
+S1: You are analyzing a dataset containing information about the weight of 100 individuals.
+S2: You are analyzing a dataset about the types of fruit sold in a grocery store.
+Which type of data is weight and type of fruit in this dataset?
+Weight variable is an example of continuous data, types of fruit is an example of categorical data
+
+
+Fill in the Blanks:
+_____ Analysis analyzes a single variable without considering any relationships or dependencies with other variables. _____ Analysis is used to analyze the relationship between two variables.
+Univariate, Bivariate
+
+
+State True or False
+S1: Bivariate Analysis summarizes and describes the distribution, central tendency, and variability of a single variable.
+S2: Univariate Analysis can help identify any correlation or causality between two variables.
+Both statements are False
+
+
+Match the following:
+A. Categorical Data        	1. Number of cars in parking 
+B. Discrete Data           	2. Time 
+C. Continuous Data        	3. Type of car
+                          	4. Temperature
+A - 3, B - 1, C - 2, 4
+
+
+Match the following:
+A. Univariate Analysis       	1. Box Plot
+B. Bivariate Analysis           2. Median 
+				        		3. Scatter plot
+                          		4. Frequency table
+A-i,ii,iv , B-i,iii,iv
+
+
+What is the purpose of univariate analysis?
+To analyze only one variable at a time
+
+
+Which question can be answered by univariate analysis?
+What is the mean/average age of the customer
+
+
+Match the following based on the given dataset. (week-5-univariate-analysis-quiz-question)
+1. Average marks scored by the student.         			A. 81                                  
+2. Maximum Marks scored by the student        				B. 11                                                   
+3. Minimum Marks scored by the student         				C. 39.93                                                   
+4. Median of the given Marks                    			D. 39.07                                                            
+5. Trimmed mean (exclude proportion: 0.2)      				E. 25.34
+of the given Marks (excluded 1 from top and 1 form bottom)                    	
+6. Standard deviation of the attribute Marks   				F. 34.5               
+1-C, 2-A, 3-B, 4-F, 5-D, 6-E
+
+
+Match the Percentile value for the Score table in the dataset. (week-5-Percentileunivariate-analysis-quiz-question)
+1. 90th Percentile			i. 96.25
+2. 80th Percentile			ii. 95.5
+3. 85th Percentile			iii. 94
+4. 95th Percentile			iv. 94.75
+a- ii, b- iii, c-iv, d-i
+
+
+In the given Marketing Dataset Apply trim mean to the column Income with 0.1 variations and find its value. Also, verify if it does have an outlier or not. (week-5-marketing_campaign_PP2-quiz-question)-Find the outlier for trim mean values 
+51779.17 and No Outlier
+
+
+What is a pivot table?
+A way to summarise a large amount of data in a spreadsheet
+
+
+Which of the following is true in the case of BINNING the values?
+It gives the value for a defined range
+Bins have lower value and upper value
+
+
+In the given Marketing Dataset create BIN for the column "AGE".
+Take bin size of 20. i.e , 0-20-40-60-80 and so on. Find how many people lie in between the range of 40-60. ( whereas 40 will be a lower limit and 60 will be the upper limit) (week-5-marketing_campaign-univariate-analysis)
+1239
+
+
+What is the purpose of including MntSweetProducts in the Values option in the Pivot Table Editor? 
+(week-5-marketing_campaign-univariate-analysis)
+To examine the quantity of sweet products bought by individuals of various educational qualifications
+
+
+Create a PIVOT table for Marital_Status from Marketing Dataset and perform CountA operation on the pivot table.
+(week-5-marketing_campaign-univariate-analysis)
+Find the CountA of people that are together using pivot table
+580
+
+
+Perform the FREQUENCY function with the “Age” column and tell how many outliers exist in the data.
+Hint: Check the MAX value in the “Age” column and set the BIN range
+3 (While seeing the frequency, you can notice 3 people aged around 130, which could be an error by a data engineer. 
+So that will be classified as an outlier. The values related to those features might be useful in the final analysis, so you will not remove them.)
+
+
+State True or False (week-5-marketing_campaign-univariate-analysis)
+S1: Education is a categorical variable, so we can perform analysis with the help of the Pivot table.
+S2: Age is a continuous variable, so we can perform analysis by either calculating the Average/median or plotting a histogram.
+Both statements are True
+
+
+What does it imply if the trim means and mean are different?
+There are outliers in the dataset
+
+
+A company collected data on the number of hours worked by its employees in a week. The data were summarized and analyzed using univariate analysis. The mean was calculated to be 40 hours, and the standard deviation was 5 hours. What can you infer from this information?
+- Most employees worked between 35 to 45 hours a week (The mean of 40 hours implies that, on average, the employees worked 40 hours a week. The standard deviation of 5 hours indicates that most data points are within 5 hours of the mean. Therefore, most employees worked between 35 to 45 hours a week.)
+
+
+Based on the given data, the majority of the customers are:
+Graduate (week-5-marketing_campaign-univariate-analysis)
+
+
+State True or False
+S1: Binning is a data visualization technique that categorizes categorical data into discrete intervals. It is useful for reducing the noise in the data and making it easier to analyze.
+S2: A pivot table effectively summarizes and analyses large datasets, such as sales data. It allows the user to group and aggregate the data by different variables, such as products, time, and location. It provides a quick and easy way to identify the top-performing products and trends in sales data.
+S3: Univariate analysis involves analyzing multiple variables at a time.
+S1 is False, S2 is True, S3 is False

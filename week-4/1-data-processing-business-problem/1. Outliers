@@ -1,0 +1,33 @@
+OUTLIERS:
+	# It is something which is different from rest of the community
+	# It can vary your analysis to a very a very large scale
+
+QUARTILE:
+	# MIN	Q1	Q2	Q3	Q4/MAX
+	# Let suppose we have give a data:
+		2 	10 	18 	12 	3 	7 	100  42  27  58  112  62
+		Then sort the data:
+			2 	3 	7 	10 	12 	18 	27 	42 	58 	62 	100  112
+
+			* Q1: 25% percentile value of the given dataset
+				12*(25/100) = 3 (i.e. 3rd value which is 7)
+
+			* Q2: 50% percentile value of the given dataset, it can be called MEDIAN
+				12*(50/100) = 6 (i.e. 6th value which is 18)
+
+			* Q3: 75% percentile value of the given dataset
+				12*(75/100) = 9 (i.e. 9th value which is 58)	
+
+			* Q4: max value i.e. 112	
+
+	# IQR (INTERQUARTILE RANGE):
+		* Q3-Q1 = 58-7 =51 
+
+	# In excel we represent as '=QUARTILE(A2:A2241,1)' QUARTILE(range,1) '1' is which quartile u want value u want, it can vary from 1 to 4
+	# We use a Box Plot Chart to identify a outlier
+
+	# !!! How we identify a particular value is an outlier or not !!!
+		If the particular value is true for any one of the conditions then that value is an outlier
+		* value < Q1-1.5IQR 
+				OR
+		* value > Q3+1.5IQR

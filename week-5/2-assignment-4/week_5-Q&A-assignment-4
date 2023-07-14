@@ -1,0 +1,58 @@
+(week-5-assignment-4-College-Placement-Data)
+What is the purpose of creating admission criteria for the MBA college?
+To improve the overall placement rate.
+
+
+What is the trimmed mean value of the ssc_p and hsc_p marks of all the students, considering it has outliers and the portion we want to remove is 0.041 to handle outliers as well?
+67.39, 66.30884058
+
+
+What are the average marks of all the students in their MBA program? Do you think the feature is useful in your analysis?
+62.278, No
+
+
+How many students scored above average marks in placement tests?
+95
+
+
+Match The Following
+A. Continuous Data             	1. ssc_p, hsc_p, Gender
+B. Categorical  Data            2. ssc_p, hsc_p, degree_p
+                                3. Gender, workex, status
+                                4. Gender,  hsc_b, ssc_p
+A- 2, B- 3
+
+
+Find the Standard deviation of the hsc_p (12th mark), and state if any outlier exists.
+10.89, No
+
+
+Match the following with their corresponding Values calculated from column hsc_p:
+A. Mean                          1. 10.89750916
+B. Median                        2. 63
+C. Mode                          3. 65
+D. Standard Deviation   		 4. 66.33316279
+A-4, B-3, C-2, D-1
+
+
+Create a pivot table for students and find the maximum marks scored by male and female in their mba marks
+Max marks male- _____________
+Max marks female-_____________
+77.89, 76.18
+
+
+Match the following with their corresponding Values calculated from column degree_p:
+A. Mean                     	1. 66.37018605
+B. Median                   	2. 65
+C. Mode                     	3. 66
+D. Standard Deviation    		4. 7.358743287
+A-1, B-3, C-2, D-4
+
+
+hsc_p marks column represents , scores of a student. Answer the following question by keeping bin size = 5.
+Which of the following is the correct line chart representation of "hsc_p" Marks ?
+a
+
+
+While doing analysis, what kind of analysis will you perform to find insight of work_ex column?
+Pivot Table
