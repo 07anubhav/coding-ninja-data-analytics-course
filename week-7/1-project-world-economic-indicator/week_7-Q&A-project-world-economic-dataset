@@ -1,0 +1,24 @@
+To start the analysis which of the following steps will help you?
+Creating a Unique Id as the first column of each sheet and then merging the sheet
+
+
+How would you handle the missing values in GDP dataset?
+By imputing them with their corresponding region previous year’s value
+(You will first sort the dataset in ascending order to region and year and then To handle missing values, you are replacing the missing value with the same country/Region’s previous year value. If the previous year's value is also missing, then leave it as it is.
+You will check two conditions for the same, i.e., 
+1) You are replacing the missing value with the same country/Region’s previous year's value.
+2) If the cell’s value is blank, i.e. missing value, only then you will replace it with the previous year’s value, else that cell will hold its original value.)
+
+
+Which of the following conditions will you use to handle the missing values?
+Using an IF condition after sorting the data set in ascending order with respect to region, country & year
+
+
+What can you say about the presence of Outliers in the Dataset?
+There are Outlier present
+
+
+Can we directly compare the CO2 emissions of two countries like the USA and China?
+No
+
+

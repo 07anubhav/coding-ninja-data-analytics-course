@@ -1,0 +1,101 @@
+DBMS has more complexity in handling as compared to file systems.
+True
+
+
+Which of the following are problems faced in File System ?
+Data Redundancy
+Inconsistency
+No Concurrent Access
+No relation between Files
+No Back Up
+
+
+Which of the following tasks will be efficient with the help of a database?
+Insertion of data
+Deletion of data
+Retrieval of data
+
+
+_________ is a collection of interrelated data. __________ is a software which can be used to manage the data by storing it on to the database and by retrieving it from the database.
+Database, DBMS
+
+
+How data is stored in Hierarchical Database ?
+Tree
+
+
+________ database allows each record to have multiple children and parent nodes.
+Network
+
+
+________ stores data as a file.
+__________ stores data in tabular form.
+DBMS, RDBMS
+
+
+Row is also termed as
+tuple
+
+
+Column is also termed as
+attribute
+
+
+Properties of Primary Key
+Unique Values
+Minimal set of Attributes
+
+
+A _______ is a key used to link two tables together having one attribute in common.
+Foreign key
+
+
+Foreign keys values should be unique
+False
+
+
+What is the full form of SQL?
+Structured Query Language
+
+
+Which of the following statements is TRUE about SQL?
+Using SQL, you can query, update, and reorganize data.
+SQL can be used to share and manage data.
+SQL is the standard and most widely used programming language for relational databases.
+
+
+Select Open Source RDMS
+SQLite
+MySQL
+Postgres
+
+
+SQL commands are case Sensitive
+False
+
+
+Command for listing all databases
+show databases;
+
+
+Write the command to create the database with the name 'university'.
+create database university;
+
+
+SQL is not case-sensitive with regard to the text data stored in the tables.
+False
+
+
+What is the need for formatting SQL statements?
+Queries will be easier to read
+Queries will be easier to correct
+Queries will be earlier to compare with other written code.
+
+
+While formatting your queries, which among the following should be in all uppercase letters?
+select
+from
+
+
+Which command is used to create aliases?
+AS

@@ -1,0 +1,66 @@
+(week-6-marketing-campaign-customer-churning)
+
+Which features in the ABC food company's marketing campaign dataset are most informative for addressing the customer churning issue? What is the optimal threshold or assumption for the Recency column in identifying customers who have churned?
+Recency, Greater the recency than the threshold more the chances to churn.
+
+
+!!!!! Could you arrange the following in the correct order? !!!!!
+A) Find Outliers
+B) Find Missing Values
+C) Merge The Excel Sheets
+D) Perform Bivariate Analysis
+E) Perform Univariate Analysis
+1-A, 2-B, 3-C, 4-E, 5-D
+
+
+Find out if there are any outliers present in recency and days registered.
+Hint: Use a histogram to plot the data for visualization.
+No
+
+
+Let’s understand how the values in the recency column are spread over the range. Which of the following is correct for the recency column.
+Standard Deviation is 28.96
+Trim mean with 0.1 data removal is approximately equal to average
+
+
+Calculate the trim mean with 0.1 exclude proportion and analyze whether the mean and trim mean is far from each other in no. of days since registration.
+354.8779762, NO
+
+
+Let’s understand how the values in the Days Registered column are spread over the range.
+Hint: Exclude 0.1 proportion in trim mean
+           A) Mean                                 	1. 356.5
+           B) TrimMean                          	2. 202.1225
+           C) Standard deviation          			3. 668
+           D) Median                              	4. 354.8779
+           E) Mode                                 	5. 354.582	
+A-5, B-4, C-2, D-1, E-3
+
+
+Match The Following with the correlation coefficient
+		 A) Recency and Age                            	1. 0.0180533
+		 B) Recency and Income                       	2. -0.003969
+		 C) TotalKids and Recency                   	3. 0.019871
+		 D) Day Registered and Recency          		4. 0.024521
+A-3, B-2, C-1, D-4
+
+
+What kind of a relation does the Income and Recency feature have? Do you think any feature is strongly correlated, either positive or negative, with respect to recency?
+Weak Negative Correlation, NO
+
+
+Calculate the trim mean with 0.1 exclude proportion and analyze whether the mean and trim mean is far from each other in recency.
+49.1052, No
+
+	
+Which method will you use to find the bivariate relation between Recency and Age, Recency and Income, Recency and TotalKids?
+Scatter plot
+Correlation
+
+
+Using a pivot table, determine which demographic group exhibits the highest level of recency based on their marital status.
+Married
+
+
+Using a pivot table, determine which demographic group exhibits the highest level of recency based on their Education.
+Graduate	

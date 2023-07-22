@@ -1,0 +1,88 @@
+What is the primary goal of bivariate analysis?
+To understand the relationship between two variables
+
+
+Match the following:
+A. Categorical to Categorical Data    	1. Box Plot/Candlestick Chart
+B. Categorical to Continuous Data     	2. Scatter Plot
+C. Continuous to Continuous Data     	3. Frequency Plot                             
+                                     	4. Correlation Coefficient
+A - 3, B - 1, C - 2, 4
+
+
+Select the correct option.
+S1: Average Amount of Sweet products that a person buys whose marital status is single and who is also a graduate.
+S2: Maximum number of Total purchases a "Divorced Ph.d." makes?
+S3: Minimum Income of a widow who is a graduate.
+S1: 29.380, S2: 20, S3: 27038 (week-6-marketing_campaign-bivariate-analysis -> quiz_question)
+
+
+So now as you know box plot will be best suitable to analyse the Marital status of the customer and the Amount of fruit they buy, which of the following is its correct representation?
+d
+
+
+Create a Pivot table you will use to create a candlestick chart to analyse Amount of fruit bought depending on Education qualification of various people
+a
+
+
+Create a pivot table that will be used to analyse Marital status & Amount of sweet products.
+b
+
+
+Which of the following best describes the difference between positive and negative correlation?
+- Positive correlation indicates that the variables move in the same direction, while negative correlation indicates that the variables move in opposite directions.
+(Positive correlation means that as one variable increases, the other variable also increases, and vice versa. Positive correlation is observed when the values of two variables increase or decrease together, meaning that they move in the same direction. For example, if you find that higher levels of physical activity are associated with higher levels of fitness, this is a positive correlation.
+
+Negative correlation means that as one variable increases, the other variable decreases, and vice versa. Negative correlation is observed when the values of two variables move in opposite directions.For example, if you find that higher levels of smoking are associated with lower levels of lung function, this is a negative correlation.)
+
+
+In the previous question, we have seen that the relation between Income and MntFruits features is positive. Can you verify the same with the Scatter plot? Which of the following will be the correct scatter plot for these two variables?
+b (week-6-marketing_campaign-bivariate-analysis -> quiz_question_2)
+
+
+Which of the following is correct scatter plot depiction for Amount of sweet products and Income?
+b (week-6-marketing_campaign-bivariate-analysis -> quiz_question_2)
+
+
+Select the correct answer
+
+Calculate the correlation coefficient of the following features
+1. Income and Age.
+2. Amount of fruit products and Total kids.
+3. Income and Amount spent on fruit.
+1: 0.1609419008, 2: -0.3948531552, 3: 0.4287470334 (week-6-marketing_campaign-bivariate-analysis -> quiz_question_2)
+
+
+Select the correct option. For the following, what type of analysis will you use?
+A. Amount of fruit bought and Age
+B. Marital Status and Number of store purchases
+Correlation, Candlestick Chart
+
+
+The correlation coefficient of the columns “MntFruits” and “MntSweetProducts” is 0.5671639398. With the standard of the real world, this correlation is
+Strong positive correlation
+
+
+Select the correct option.
+The Marketing dataset provides the Average, Median, Maximum and Minimum values of TotalMnt (TotalMnt column is the sum of “MntFruits” and “MntSweetProducts”) for Graduate customers as
+62.14, 24, 346, 0
+
+
+State true or false
+S1: Stakeholders want a summarized analysis for them to understand easily and further implement it.
+S2: Stakeholders are not interested in the detailed & technical aspects of analysis. Hence executive summary is most important and useful from their perspective.
+S3: There is no need to mention the data points used to our stakeholders as they are only interested in the final result.
+All statements are True
+
+
+Select the correct answer. In the lecture, based on the features, what insights were inferred
+1. Education
+2. Income
+3. Kids
+4. Purchase
+1 - Graduation, 2 - Higher Income, 3 - Zero or One, 4 - Higher Purchase
+
+
+Based on the Customer Campaign Analysis, Select the final insights.
+Higher-income, higher probability of buying of new product
+Graduates are more likely to buy a new product

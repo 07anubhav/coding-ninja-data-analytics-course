@@ -1,0 +1,36 @@
+1 . Dataset 1:  St_detail
+s_id            - Serial Number
+gender          - Gender (Male/Female)
+
+10th class
+ssc_p           - Secondary Education percentage- 10th Grade
+ssc_b           - Board of Education- Central/ Others
+
+12th class
+hsc_p           - Higher Secondary Education percentage- 12th Grade
+hsc_b           - Board of Education- Central/ Others
+hsc_s           - Specialisation in Higher Secondary Education
+
+Under Grduate
+degree_p        - Degree Percentage
+degree_t        - Under Graduation(Degree type)- Field of degree education
+
+PostGraduate
+specialisation  - Post Graduation(MBA)- Specialisation
+mba_p           - Percentage in MBA.
+ 
+
+2. Dataset 2: Placement Detail
+s_id            - Serial Number
+work_ex         - Work Experience(Yes/No)
+etest_p         - Employability test percentage ( conducted by the college)
+status          - Current Placement Status (Placed/Not Placed)
+Salary          - Salary offered by corporate to candidates
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Business problem : 
+The MBA college campus wants to improve its placement rate in the near future. Their counselor suggested that they could improve by improving their admission procedure. So now, the college wants to create certain criteria for admission to the MBA college to improve the overall placement. They want to have a specific set of people in the college who will be placed by looking at the record. They want to create admission criteria. Keeping this in mind, we will perform a Bivariate Analysis.
+ 
+Till here, you would have performed all the data processing (Assignment 2 and Assignment 3) and Univariate Analysis (Assignment 4) on the dataset. In the attached dataset is the result after Assignment 4. 
+

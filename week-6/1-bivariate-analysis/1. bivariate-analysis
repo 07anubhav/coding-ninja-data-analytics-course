@@ -1,0 +1,22 @@
+BIVARIATE ANALYSIS:
+	# It is the way or analysis to find out the relationship between two variables
+	# Types of bivariate analysis:
+		* Continuous & Continuous	: Correlation coefficient, Scatter plot
+		* Categorical & Continuous	: Box plot (Candle & Stick chart)
+		* Categorical & Categorical	: Frequency plot
+
+- If there is a significance of the correlation factor, then based on the business demand we can find which all columns is required for our analysis and which columns are playing significant role in fullfilling the business demand, as by using those columns we can come to our conclusion. The correlation factor helps us to find those columns very efficiently by comparing diff columns one-by-one and calculating there correlation factor (-1,0,1).
+
+Magnitude of Correlation Strength of Correlation:
+	0.00 - 0.19 	Very weak
+	0.20 - 0.39 	Weak
+	0.40 - 0.59 	Moderate
+	0.60 - 0.79 	Strong
+	0.80 - 1.00 	Very strong
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Do it yourself:
+	# Find Correlation coefficient and corresponding scatter plots for various continuous features in our Marketing Dataset to study their relationship briefly.
+	# Find Which variable will be useful for our analysis in the Marketing Dataset. Go through your bivariate analysis for each variable which you performed. 
+
+# Business Requirement : Which type of customer who would be most probable to buy product which is sweet and made up of fruits.

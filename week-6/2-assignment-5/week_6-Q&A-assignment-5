@@ -1,0 +1,59 @@
+(week-6-assignment-5-college-placement-data)
+
+What is the correlation coefficient between the MBA percentage and the Employability test percentage, and based on this value, what type of relationship can be inferred between the two variables?
+0.208, Positive correlation
+
+Till now, you have seen bivariate analysis for different features of the dataset.
+Now to answer our business problem:
+“The MBA college campus wants to improve their placement rate, for the near future. For that, they want to have a specific set of people in the college who will be placed by looking at the previous record. Basically, they want to create admission criteria''
+So, according to you, Which of the following columns will we perform the bivariate analysis?
+Status and gender
+Status and ssc_p
+Status and HSC-P
+Status and degree-p
+Status and degree_t
+Status and WorkEx
+
+
+Match the following variables with their correlation coefficient.
+A)ssc_p , hsc_p                           1) 0.40837
+B)degree_p, mba_p                         2) 0.2152977
+C)Etest_p, salary                         3) 0.1754   
+D)degree_p, etest_p                       4) 0.40236
+E)degree_p, salary                        5) 0.51147
+A-5, B-4, C-3, D-2, E-1
+
+
+Which of the following is the scatter plot of etest_p and salary column?
+c
+
+
+For the following column, which analysis will you perform?
+Salary and etest_p                 1) Pivot table, Density plot
+Status and degree_p                2) Pivot table and Candlestick
+Status and gender                  3) Correlation coefficient and  scatter plot
+A-3, B-2, C-1
+
+
+You want to analyze if student placement depends on gender; which analysis will you use? Further, visualize the column status and gender to count the no. of males and females placed.
+Pivot table, (Male= 100, Female= 48)
+
+
+Which of the following pivot table correctly helps in deciding the selection criteria on the basis of degree_p (Marks in their previous degree) marks
+c
+
+
+As a data analyst you have to decide the minimum cut off of hsc marks and ssc marks for students. So now find out what was the average marks in hsc_p and ssc_p of all the students who got "placed" after MBA.
+Greater than 65, Greater than 70 (Using pivot table)
+
+
+What is the percentage of students who got placement after their MBA degree and have prior work experience? Can you conclude that students with previous work experience are gaining more placement?
+86.48,YES
+                  
+
+Which of the following are the final insights from your analysis on college placement data.
+Males are getting more placement
+Comm&Mgmt students are getting more placement
+Maximum students who are getting placement have ssc marks more than 70
+Maximum students who are getting placement have hsc marks more than 65
+Student having previous work experience is also getting more placement                                   
