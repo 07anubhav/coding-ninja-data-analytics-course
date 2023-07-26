@@ -1,0 +1,50 @@
+State the status of the SQL statement.
+SELECT *;
+Error as the table name is missing
+
+
+_______ clause is mandatory with clause “SELECT” in Mysql?
+FROM
+
+
+The ______ clause is used to set an upper limit on the number of tuples returned by SQL.
+LIMIT
+
+
+Using the _______ clause retains only one copy of identical tuples.
+DISTINCT
+
+
+What does the following query result in?
+SELECT *
+FROM Student
+LIMIT ALL;
+Returns all the entries in the table
+
+
+The _______ clause is used to specify a condition while fetching the data from a single table or by joining with multiple tables.
+WHERE
+
+
+What will be the output of the following statement "false AND Null”?
+NULL
+
+
+Logical operators used in SQL are:
+AND, OR , NOT
+
+
+Write True or False for the following statement:
+SQL does not permit distinct with count(*).
+True (SQL does not permit distinct with count(*) but the use of distinct is allowed with max and min)
+
+
+Select True or False for the following statement:
+count(*) function ignore repetitive values.
+False
+
+
+Aggregate functions return a ________ value after calculating from a group of values.
+Single
+
+

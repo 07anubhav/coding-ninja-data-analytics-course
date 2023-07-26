@@ -1,0 +1,66 @@
+‘Group by’ clause groups data by ______ values.
+Columns
+
+
+The group by statement is used with?
+Aggregate functions
+
+
+Null values in GROUP BY fields are omitted.
+False
+
+
+Statement 1: We can use the GROUP BY statement only on one column.
+Statement 2: We can use WHERE with GROUP BY to filter the result.
+Statement 1 is FALSE and Statement 2 is TRUE
+
+
+HAVING is used to filter rows before grouping, and WHERE is used to exclude records after grouping.
+False
+
+
+Order by can be used along with Where clause in the same query.
+True
+
+
+WHERE and HAVING can be used in a single query. Mention whether the statement is True or False.
+True
+
+
+What is the default order of Order By clause?
+Ascending
+
+
+The values in the BETWEEN clause are exclusive of the range.
+False
+
+
+Values in Between clause must be in which datatype:
+Integers
+Characters
+Date
+
+The values in the list for “IN” clause must be separated by?
+Comma
+
+
+Underscore character represents how many characters?
+One
+
+
+LIKE '__A%B' represents?
+It finds any value which has 'A' in the third position and ends with 'B'.
+
+
+You want to search the following string- “25%”. Which of the following will result in the correct matching?
+Like ‘25\%'
+LIKE '25!%' ESCAPE '!'
+
+
+Which Operator performs pattern matching?
+LIKE
+
+
+Every attribute used in the GROUP BY must appear in the SELECT clause.
+True
+

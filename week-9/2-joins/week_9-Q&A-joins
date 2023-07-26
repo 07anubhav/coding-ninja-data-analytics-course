@@ -1,0 +1,68 @@
+Why do we need JOIN in SQL?
+To combine data from two or more tables.
+To extract data from tables which have one-to-many or many-to-many relationships between them.
+To retrieve data from two or more tables.
+
+
+Which of the following is not a type of JOIN in SQL?
+ONTO joins
+
+
+You can perform which of the following operations on Join?
+SELECT
+UPDATE
+DELETE
+
+
+_______ Join returns data that is common between two tables.
+Inner
+
+
+To specify a normal join, using the keyword inner is?
+Optional
+
+
+Which of the following conditions has to be satisfied for INNER JOIN to work?
+Columns used for joining can have same or different name
+
+
+On how many tables can we have an inner join?
+As many we want
+
+
+INNER JOIN is also known as _____ JOIN.
+EQUI
+
+
+Which of the following clause can be used with inner join?
+WHERE
+USING
+GROUP BY
+
+
+__ JOIN returns all rows from the left table, even if there are no matches in the right table and __ JOIN returns all rows from the right table, even if there are no matches in the left table.
+Left, Right
+
+
+Table1 has 20 rows and Table2 has 30 rows. What is the minimum number of rows returned by Table1 RIGHT JOIN Table2?
+30
+
+
+Table1 has 20 rows and Table2 has 30 rows. What is the maximum number of rows returned by Table1 RIGHT JOIN Table2?
+30
+
+
+RIGHT OUTER JOIN is equivalent to LEFT OUTER JOIN if the order of tables are reversed.
+True
+
+
+_____ join can be used when there is a need to combine data with other data in the same table itself.
+Self
+
+
+Relation R1 has 7 tuples and 5 attributes. Relation R2 has 0 tuples and 6 attributes. When a CROSS JOIN is achieved between R1 and R2, how many tuples would the resultant set have?
+0
+
+
+_____ JOIN returns all the records from table1 and table2, and each row is the combination of rows of both tables.
+Cross, Cartisan
