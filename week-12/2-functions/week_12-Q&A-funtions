@@ -1,0 +1,206 @@
+What does def mean in python?
+- Indicates start of a function
+
+
+What will be the output of following code?
+def func(a):
+    a = a + 10
+    return a
+b = 5
+b = func(b)
+print(b)
+- 15
+
+
+Fill in the blanks to generate the same output when executing the following code.
+def calculate(l,b):
+    # Your code goes here
+    ______
+
+print( "perimeter of the rectangle is", calculate(10,20))
+perimeter of the rectangle is 60 
+- return 2*(l+b)
+
+
+What are the benefits of using a function?
+- All of the above
+
+
+What will be the output of the following code?
+def func(a,b):
+   if a >= b:
+       print( "a" )
+   else:
+       print( "b" )
+func(3,5)
+- b
+
+
+What will be the output of the following code?
+def python():
+    print( "python", end =  " ")
+
+def statistics():
+    print( "statistics", end =  " ")
+
+def sql()
+    print( "SQL", end =  " ")
+
+statistics()
+sql()
+sql()
+python()
+- statistics SQL SQL python
+
+
+What will be the output of the following code?
+def func(b):
+    ans = 10
+    for i in range(1,b):
+        ans = ans - I
+        print(ans, end = "  ")
+a=func(4)
+- 9 7 4
+
+
+What will be the output of the following code?
+def func(a):
+    i=a
+    while(i >= 1):
+        if i%2==0:
+            print("breaking", end = " ")
+            break
+        else:
+            print(i, end = " ")
+        i=i-1
+    return i
+ print(func(9))
+ - 9 breaking 8
+
+
+What will be the output of following code?
+def A():
+   print('A',end=' ')
+def B():
+   print('B',end=' ')
+   A()
+def C():
+   B()
+   print('C',end=' ')
+C()
+- B A C
+
+
+Which of the following codes, when executed, will generate the following output? 
+Output:
+We are learning functions
+We are learning functions
+Option:
+ a.  def print_():
+         print("We are learning functions")
+     def func():
+         print_()
+         print_()
+      func()
+
+ b.  def  print_():
+          print("We are learning functions")
+     def func():
+          print_()
+     func()
+     func()
+- both a and b
+
+
+What will be the output of the following code?
+def A():
+    print('A', end = ' ')
+def B():
+    print('B', end = ' ')
+    A()
+    print('D', end = ' ') 
+def C():
+    B()
+    print('C', end = ' ')
+C()
+- B A D C
+
+
+What will be the output of the following code?
+def A():
+    print("A", end = " ")
+    B()
+    print("C", end = " ")
+def B():
+    print("B", end = " ")
+    A()
+A()
+- Infinite loop of ABABABABABA…
+
+
+The variables defined outside the function are called _______ and the variables defined inside the function are called ________.
+- global variables, local variables
+
+
+What will be the output of following code?
+a = 14
+def f():
+    a=12
+f()
+print(a)
+- 14
+
+
+What will be the output of following code?
+a=14
+def f():
+    global a
+    a=12
+f()
+print(a)
+- 12
+
+
+What will be the output of following code?
+a = 14
+def f():
+    a = 12
+    return a
+a = f()
+print(a)
+- 12
+
+
+What will the output of the following code?
+def function(a,b,c=1):
+    return a+b-c
+value = function(10,12)
+print(value)
+- 21
+
+
+What will the output of the following code?
+def function(a,b,c=1):
+    return a+b-c
+value = function(10,12,5)
+print(value)
+- 17
+
+
+What will the output of the following code?
+def function(a,b,c=1,d=5):
+    return a+b+c+d
+value = function(1,2,d=7)
+print(value)
+- 11	
+
+
+What will be the output of the following code?
+Refer to the following: 
+https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions
+def func(a):
+  a=a**2
+  a+=(25*41+81)
+  return a
+print(func(10,a=5))
+- Error

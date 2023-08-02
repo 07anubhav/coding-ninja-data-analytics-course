@@ -1,0 +1,32 @@
+Which category had the highest profits?
+Technology
+
+
+Your manager wants to know the Product with highest loss. Write the Product_Name of such product. (Loss is when profit gets negative.)
+Cubify CubeX 3D Printer Double Head Print
+
+
+select Order_ID, Product_Name, Profit, Discount
+from orders
+
+
+Does the order with the highest loss was given the highest discount?
+N
+
+
+Select the states which are making a loss?
+Delhi
+Daman and Diu
+
+
+Did you have any observations? Were there any states which are in loss because of category? Choose the correct option for such states and their categories.
+Delhi- Furniture
+Daman & Diu- Furniture
+
+
+Which manager reported the highest profit.
+gaganjit singh
+
+
+Write down the customer id of the highest profit customer.
+TC-20980

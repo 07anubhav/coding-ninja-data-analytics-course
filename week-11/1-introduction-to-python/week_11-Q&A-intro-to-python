@@ -1,0 +1,139 @@
+What is the purpose of the 'print()' function in Python?
+- It displays output to the console
+
+
+What will be the output of the given code?
+var = ”Ninjas”
+print(“Greeting”, var)
+- Greeting Ninjas
+
+
+What is the output of the following program?
+  print('Coding', 'Ninjas', sep=' ', end='!')
+- Coding Ninjas!
+
+
+What will the following code segment print?
+print(“Career”)
+print(“Labs”)
+- Career Labs(in next line)
+
+
+Select correct variable name(s) which are allowed in python language.
+One or more options may be correct
+- var1
+  var_1
+  _var1
+
+
+What will be the result of following code in Python ?
+x = 10
+x = "abcd"
+print(x)
+- abcd
+
+
+Consider the python code below -
+x = "abcd"
+x = 10
+What is the type of x after the code executes ?
+- int
+
+
+What will be the output of the given code?
+a=10
+b=20
+sum=a+b
+print(“sum”)
+print(sum)
+- sum
+ 30
+
+
+What will be the output of the following code ?
+x = 10
+y = x
+x = ”Coding”
+print (x, y)
+- Coding 10
+
+
+Which character is used in Python to make a single line comment?
+- #
+
+
+Choose the correct variable types after the code given below is executed.
+x = ”Python”
+y = ”Coding”
+x = 12
+z = 12.02
+z = 12+3j
+w = 10.24
+- x: int, y: str, z: complex, w: float
+
+
+Will id1 and id2 have same value?
+a = 10
+id1 = id(a)
+b = a + 2-2
+id2 = id(b)
+- Yes (In python, the values are stored in a separate memory. And an address/id is stored in the variable, which points to that memory location. So, if “10” is stored in both “a” and “b”, the id is going to be the same for both of these.)
+
+
+
+Choose the correct answer
+a = 10
+b = 10
+c = 12
+print(id(a))
+print(id(b))
+print(id(c))
+A and B will have the same memory ID. C will have a different memory ID.
+
+
+What is the maximum possible value of an integer in python?
+The maximum limit depends on memory of the system.
+
+
+Match the following code to its output.
+a = 10
+b = 19
+1.  print(b//a)      a. 1
+2.  print(b/a)       b. 1.9
+3.  print(b*a)       c. 9
+4.  print (b-a)      d. 190
+- 1 - a, 2 - b, 3 - d, 4 - c
+
+
+Which option(s) accurately complete the blank to produce the given output?
+a=2
+b=3
+print(______)
+Output: 8
+- a**b
+ a*b + 2
+
+
+What will be the output of the code if input provided is 40 and 57 ?
+a =int (input())
+b= int (input())
+C = a+b
+print(C)
+- 97
+
+
+What will be the output of the code if input provided is “abc” and “def”?
+a = int(input())
+b=int(input())
+C = a+b
+print(C)
+- Value Error
+
+
+What will be the output of the following program?
+name = ”Alice”
+maths = 90
+eng = 80
+avg= (maths + eng)/2
+print(“Hi {name}, your average marks are {avg}. Keep it up.”.format(name=name, avg=avg))
+- Hi Alice, your average marks are 85.0. Keep it up.

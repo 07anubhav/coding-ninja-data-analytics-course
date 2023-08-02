@@ -1,0 +1,174 @@
+How many values does a boolean have?
+- 2 (True or False)
+
+
+What will be the output of the following code: 
+print(bool(‘False’))
+print(bool())
+- True
+ False
+
+
+Which of the following expressions will result in a TRUE value?
+I. True AND False 
+II. False OR True 
+III. False AND (True OR False)
+IV (False OR False) AND (True OR True)
+- II. False OR True 
+
+
+What is the output of the following Boolean expression:
+(3 > 4) && (5 < 6)
+- False
+
+
+Which of the following is a valid syntax for an if statement?
+- If a==13:
+If ( a != b):
+
+
+What will be the output of the following code?
+x = 15
+if x%2 == 0:
+print('x is even')
+else:
+print('x is odd')
+- Indentation error
+
+
+What will be the output of the following code?
+x = 4
+if x == 10:
+    print("x is 10")
+else:
+    if x == 5:
+        print("x is 5")
+    else:
+        print("x is not 5 or 10")
+- x is neither 5 nor 10
+
+
+What happens if the condition in the if statement is false and there is no else block in the code?
+- The program continues executing the following statement after the if block.
+
+
+What is the output of the following code segment?
+ x = 15
+if x < 10:
+     print("x is less than 10")
+elif x < 20:
+     print("x is less than 20")
+else:
+     print("x is greater than or equal to 20")
+- x is less than 20
+
+
+Below is a code to check if the last digit of a number is divisible by 3. Find the line that contains an error in the code.
+id=129 // 10
+if id % 3 == 0:
+     print("Divisible by 3")
+else:
+     print("Not divisible by 3")
+- id=129 // 10
+
+
+Output of the following program will be :
+n = 10
+if n>0 and n<=10:
+    print("too low")
+elif n>10 and n<=20:
+    print("medium")
+elif n>20 and n<=30:
+    print("large")
+else:
+    print("too large")
+- too low
+
+
+Output of the following program will be :
+a = 5
+b = 5
+c = 5
+if (a != b) and (b != c) and (a != c):
+    print('This is a scalene triangle')
+elif (a == b) and (b == c):
+    print('This is an equilateral triangle')
+else:
+    print('This is an isosceles triangle')
+- This is an equilateral triangle
+
+
+What will be the output for the following code?
+a=40
+if(a>10):
+  print("A")
+elif(a == 40):
+  print("B")
+else:
+  print("C")
+- A
+
+
+What will the following code segment print?
+ if (10 < 0) and (0 < -10):
+     print("A")
+ elif (10 > 0) or False:
+     print("B")
+ else:
+     print("C")
+- B
+
+
+What will the following code segment print?
+if True or True:
+    if False and True or False:
+        print('A')
+    elif False and False or True and True:
+       print('B')
+    else:
+      print('C')
+else:
+     print('D')
+- B
+
+
+What happens if the condition in a while loop is always true?
+- The loop will run indefinitely
+
+
+What will be the output of following code segment?
+i=0
+while i<10:
+    print(i)
+i = i+1
+- Infinite times 0 will be printed
+
+
+What will be the output of following code segment?
+i=0
+while i<10:
+    print(i)
+    i= i+1
+- Numbers from 0 to 9 will be printed
+
+
+What problem is this code solving?
+sum = 0
+ i=1
+while i<=10:
+     if i % 2 != 0:
+        sum += i
+    i+=1
+- 25, the sum of odd numbers from a range of 1 to 10
+
+
+What will be the output of the following code:
+num1= 342
+r=0
+p=1
+while(num1!=0):
+  r=num1%10
+  p=p*r
+  num1=num1//10
+print(p)
+- 24

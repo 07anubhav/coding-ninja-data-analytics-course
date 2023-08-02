@@ -1,0 +1,29 @@
+Strings in Python are -
+- Immutable
+
+
+Which of the following will result in an error?
+str="coding"
+- str[1]="n"
+
+
+
+Fill in the code to generate the following output.
+s = "CodingNinjas”
+Output
+C o d i n g N i n j a s 
+- for i in s:
+    print(i , end=” “)
+
+
+Which of the following is the correct way to print single quotes in Python?
+Output-> single ‘ quotes
+- print("single ‘ quotes")
+print('single \’ quotes')
+
+
+Match the following code to its output. s=”WelCome NiNja”
+1. print(s.upper())                 a. welcome ninja
+2. print(s.lower())                 b. WELCOME NINJA
+3.  print(s.title())                c. Welcome Ninja
+- 1 - b, 2 - a, 3 - c

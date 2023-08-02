@@ -1,0 +1,150 @@
+The for loop in Python is an ……..
+Entry controlled loop
+
+
+Choose the correct syntax for a for loop.
+- for i in range(start,stop,step)
+
+
+What will be the output of the following code?
+for i in the range(3, 10, 2):
+    print(i)
+- 3 5 7 9
+
+
+For loop Create a for loop to iterate through the given content and print the items in the list. L=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+- for i in L: 
+    print(i) 
+
+
+What will be the output of the following code:
+for i in range(3):
+    for j in range(2):
+        print(i, j)
+- 	0 0
+    0 1 
+    1 0
+    1 1
+    2 0
+    2 1 
+
+
+What will be the output of following code?
+for i in range(1,5,2):
+    print(i,end=' ')
+- 1 3
+
+
+Arrange the code to get the reverse of a number:
+rev= 0  
+n= 1567  
+while (n > 0): 
+   1) rev = (rev * 10) + rem 
+   2) n = n // 10 
+   3) rem = n % 10  
+ print(rev)  
+- 3->1->2
+
+
+Complete the code to calculate the product of all numbers from 1 to num.
+num=6
+product = 1
+for i in range(1, #stop ):
+   #condition
+print(product)
+- for i in range(1, num+1): 
+    product *= I
+
+
+What will be the output of following code?
+i=1
+while i<5:
+    if i==3:
+        break
+    print(i,end=" ")
+    i = i +1
+- 1 2
+
+
+What will be the output of following code?
+i=1
+while i<3:
+    j=1
+    while j<5:
+        if j==3:
+            break
+        print(j,end=" ")
+        j = j + 1
+    i = i + 1
+- 1 2 1 2
+
+
+What will be the output of following code?
+i=1
+while i<5:
+    if i == 6:
+        break
+    print(i,end=" ")
+    i = i + 1
+else:
+    print(“Else is also printed”);
+- 1 2 3 4 Else is also printed
+
+
+What will be the output of following code?
+i=1
+while i<5:
+    if i == 3:
+        break
+    print(i, end=" ")
+    i = i + 1
+else:
+    print(“Else is also printed”)
+- 1 2
+
+
+What will be the output of following code?
+i=1
+while i<5:
+    if i==3:
+            continue
+    print(i,end=" ")
+    i = i + 1
+- 1 2 Infinite Loop
+
+
+What will be the output of following code?
+i=1
+while i<3:
+    j=0
+    while j<5:
+        j = j +1
+        if j==3:
+            continue
+        print(j, end = “ ”)
+    i = i +1
+- 1 2 4 5 1 2 4 5
+
+
+What will be the output of the given Python code?
+str = "coding ninjas"
+count = 0
+for x in str:
+    if x != "n":
+        pass
+    else:
+        count = count + 1
+print(count)
+- 3
+
+
+Which of the following statements is true about the pass statement?
+- It is used as a placeholder for empty code blocks.
+
+
+Which of the following statements is used to skip the current iteration of a loop.
+- continue
+
+
+What is the difference between the pass and continue statements?
+- pass is used as a placeholder for empty code blocks, while continue is used to skip the current iteration of a loop.
