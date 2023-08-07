@@ -27,3 +27,163 @@ Match the following code to its output. s=”WelCome NiNja”
 2. print(s.lower())                 b. WELCOME NINJA
 3.  print(s.title())                c. Welcome Ninja
 - 1 - b, 2 - a, 3 - c
+
+
+Match the following.
+s='abcdefgh'
+1.   s[2:5]                 a. ‘ ‘
+2.   s[2:6:3]               b. cdefgh
+3.   s[ :4]                 c. abcd
+4.   s[2: ]                 d. cf
+5.   s[3:7:-1]              e. cde
+- 1-e, 2-d, 3-c, 4-b, 5-a
+
+
+What is output of following code ?
+    s = "abcd"
+    print(s + 12)
+- Error
+
+
+What will be the output of the following code?
+str1=" An apple a day keeps doctor away"
+print(str1.find("a"),end=" ")
+print(str1.find("m"),end=" ")
+print(str1.find("day"),end=" ")
+str1=str1[ : :-1]
+print(str1.find("y"),end=" ")
+- 4 -1 12 0
+
+
+Lists in Python are _____________ data types.
+- Mutable
+
+
+Which of the following commands will create a list?
+- list1 = list()
+list1 = []
+list1 = list([1, 2, 3])
+
+
+What is the output when we execute list(“hello”)?
+- [‘h’, ‘e’, ‘l’, ‘l’, ‘o’]
+
+
+Which of the following will generate the given list. arr=[1,4,9,16,25,36]
+- arr=[i*i for i in range(1,7)]
+
+
+What will be the output ?
+aList = [123, 'xyz', 'zara', 'abc'];
+print(aList.pop())
+- abc
+
+
+What will be the output of the given code?
+lis_1= [1,2,3]
+lis_2= [4,5,6]
+lis_3=[7,8,9]
+lis_1.append(lis_3)
+lis_2.extend(lis_3)
+print(lis_1,lis_2)
+- [1, 2, 3, [7, 8, 9]] [4, 5, 6, 7, 8, 9]
+
+
+What will be the output of the following code?
+arr=[1,4,8,10,18,6,9]
+print(max(arr), len(arr), min(arr), arr.remove(4), arr.pop())
+- 18 7 1 None 9
+
+
+Match the following. lis=[1,2,3,4,5,6,7,8,9]
+lis[ 2 : 5 ]                1) [9,7,5,3,1]
+lis[ 5 : 1 : -1]            2) [2, 4, 6]
+lis[ 1 : 7  : 2]            3) [6,5,4,3]
+lis[ : : -2]                4) [3,4,5]
+- A-4, B-3, C-2, D-1
+
+
+Which statement correct:
+- Negative numbers mean that you count from the right instead of the left.
+list[-1] refers to the last element
+list[-2] is the second-last
+
+
+What will be the output for below code ?
+ a = [1, 2, 3, 4, 5, 6, 7, 8]
+ a[1:4]
+ - [2, 3, 4]
+
+
+ Which of the following statements will result in the output : 6 ?
+A = [[1,2,3],
+     [4,5,6],
+     [7,8,9]]
+- A[1][2]
+
+
+A = [[1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]]
+print([A[i][i] for i in range(len(A))])
+- [1, 5, 9]
+
+
+What is the output of the code shown below ?
+r = [11, 12, 13, 14]
+A = [[0, 10, 20],
+     [30, 40, 50],
+     [60, 70, 80]]
+for row in A:
+    for col in row:
+        r.append(col+10)
+print(r)
+- [11, 12, 13, 14,10, 20, 30, 40, 50, 60, 70, 80, 90]
+
+
+What is the output of following code ?
+A = [[0, 10, 20],
+       [30, 40, 50],
+       [60, 70, 80]]
+print(A[0:2][0])
+- [0,10,20]
+
+
+a = [10,23,56,[78]]
+b = list(a)
+a[3][0] = 95
+a[1] = 34
+print(b)
+- [10,23,56,[95]] (They only create a copy on the 0th level. That's called shallow copy. The elements of a nested element are copied by reference)
+
+
+points = [[1, 2], [3, 1.5], [0.5,7]]
+points.sort()
+print(points)
+- [[0.5, 7], [1, 2], [3, 1.5]]
+
+
+What will be the output of the following code? str1="an apple a day keeps doctor away"
+lis=str1.split(" ")
+for word in lis:
+     if word.startswith("d") :
+          lis.remove(word)
+print(lis)
+- ['an', 'apple', 'a', 'keeps', 'away']
+
+
+What will be the output of the following code?
+str1='Coding Ninjas'
+lis1=str1.split(' ')
+lis2=list(str1)
+print(lis1,lis2)
+- ['Coding , Ninjas'] ['C', 'o', 'd', 'i', 'n', 'g', ' ', 'N', 'i', 'n', 'j', 'a', 's']
+
+
+What will be the output of the following code?
+str1="HellO{}niNja"
+str1 = str1.replace("{}", " ")
+str1=str1.lower()
+pos=str1.find("o")
+print(str1+str(pos))
+- hello ninja4
