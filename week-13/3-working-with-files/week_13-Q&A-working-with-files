@@ -1,0 +1,36 @@
+To open a file c:\ninja.txt for reading, we use _____________
+- infile = open(“c:\\code\\ninja.txt”, “r”)
+
+
+To open a file c:\code\ninja.txt for writing, we use ____________
+- outfile = open(“c:\\code\\ninja.txt”, “w”)
+
+
+To open a file c:\scores.txt for appending data, we use ____________
+- outfile = open(“c:\\code\\ninja.txt”, “a”)
+
+
+To read the next line of the file from a file object infile, we use ____________
+- infile.readline()
+
+
+The readlines() method returns ____________
+- a list of lines
+
+
+What is the full form of CSV
+- Comma Separated Value
+
+
+Write the output of the following code :
+import csv
+f = open(“data.csv”, ‘r’)
+row = csv.reader(f)
+print(row)  
+- It prints the memory address where csv.reader object is stored
+
+
+What is the use of csv.DictReader() class?
+- The objects of a csv.DictReader() class can be used to read a CSV file as a dictionary.
+DictReader works by reading the first line of the CSV and using each comma-separated value in this line as a dictionary key.
+csv.DictReader takes additional argument field names that are used as dictionary keys.
