@@ -1,0 +1,159 @@
+What is NumPY stands for?
+- Numerical Python
+
+
+Why are NumPy Arrays faster than Python Lists?
+- An array is a collection of homogeneous data types that are stored in contiguous memory locations. On the other hand, a list in Python is a collection of heterogeneous data types stored in non-contiguous memory locations.
+The NumPy package breaks down a task into multiple fragments and then processes all the fragments parallelly.
+The NumPy package integrates C, C++, and Fortran codes in Python. These programming languages have very little execution time compared to Python.
+
+
+What is NumPy library ?
+- A library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+
+
+What will be the output of the following program?
+import numpy as np
+b = [1, 2, 3]
+a = np.array(b)
+print(a*3, end = "")
+a = np.array(b*3)
+print(a)
+- [3, 6, 9] [1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+
+Match the following.
+1. np.zeros(3, dtype= int)       		a.  [1. ,1. ,1.]
+2. np.ones(3)                       	b.  [0, 0, 0]
+3. np.full(3,5)                     	c.  [0. ,0. ,0.]
+4. np.full(3,0)                    		d.  [5. , 5. , 5.]
+- 1-b, 2-a, 3-d, 4-c 
+
+
+What will be the output for the following code?
+import numpy as np
+ary = np.array([1,2,3,5,8])
+ary = ary + 1
+print (ary[1])
+- 3
+
+
+a = np.empty(4, dtype = int)
+print(a)
+- Integer array of size 4 with all random integers ([ -496438309 -2119265506  1458263770   263195802])
+
+
+Choose the true properties of nd-array
+- Fast and flexible container for large datasets in python
+Homogeneous data i.e. all of the elements must be the same type
+
+
+What will be the output ?
+  np.arange(10)
+- array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+
+What will be the output on executing following code ?
+a = np.array([0, 1, 2, 3])
+a.shape
+- (4,)
+
+
+np.random.rand()
+- One random value
+
+
+np.random.randint(10, 4)
+- Error
+
+
+Syntax for creating a random integer array ranging from 0 to 10 of size (4, 4)
+- np.random.randint(10, size = (4, 4))
+
+
+Match the following
+import numpy as np
+arr=np.array([[1,2,3],[3,4,5],[5,6,7],[7,8,9]])
+1. print(arr[ :, :1])                     a.  [[1], [3], [5], [7]]
+2. print(arr[ : :2, : :2])                b.  [[1 3],  [5 7]]
+3. print(arr[1: , :2])                    c.  [[3 4],  [5 6],  [7 8]]
+4. print(arr[ :, 1: ])                    d.  [[2 3],[4 5],[6 7],[8 9]]
+- 1-a, 2-b, 3-c, 4-d
+
+
+import numpy as np 
+a = np.arange(10) 
+s = slice(2,7,2) 
+print a[s]
+- [2 4 6]
+
+
+a = np.arange(10) 
+b = a[2:7:2] 
+print(b)
+- [2,4,6]
+
+
+What will be the output on executing following code ?
+a = np.array([0, 1, 2, 3])
+a.shape
+- (4,)
+
+
+What will be the output of the following code?
+import numpy as np
+b = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+new_arr = b[b%2 == 0]
+new_arr 
+- [2 4 6 8]
+
+
+Fill in the blanks to generate the following output.
+Output: [20, 30, 15]
+arr = np.array([10, 20, 30, 15, 18, 36])
+new_arr = ___________________________
+print(new_arr)
+- arr[(arr %5== 0) & (arr > 10)]
+
+
+a=np.array([1,2,3])
+b=np.array([2,1,2])
+1. a**b                          a.  [2, 2, 6]
+2. a//b                          b.  [0.5, 2., 1.5]
+3. a/b                           c.  [0, 2,  1]
+4. a*b                           d.  [ 1, 2, 9]
+- 1-d, 2-c, 3-b, 4-a  
+
+
+What will be the output of the following?
+import numpy as np
+a = np.array([1, 2])
+b = np.array([1, 1])
+print(a+b-1)
+- [1 2]
+
+
+What will be the output for the following code?
+import numpy as np 
+a = np.array([1, 2, 3], dtype = complex) 
+print(a)
+- [ 1.+0.j, 2.+0.j, 3.+0.j]
+
+
+import numpy as np 
+dt = np.dtype('>i4') 
+print(dt.name)
+- int32
+(i4 represents an integer of size 4 byte “>” represents big-endian byte ordering and “<” represents little-endian encoding.)
+
+
+import numpy as np
+a = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+b = np.array(["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"])
+ind = np.where(a%3 == 0)
+print(b[ind])
+- [‘c’ ‘f’ ‘i’]
+
+
+Choose the statement which does not provide the right explanation.
+- The output of the ufunc is necessarily an ndarray if all input arguments are ndarrays

@@ -1,0 +1,149 @@
+The separator character of CSV files is called delimiter.
+- True
+
+
+Why is Panda Package used in python ?
+- Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive.
+It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python.
+
+
+Pandas is well suited for many different kinds of data:
+- Pandas works on tabular data with heterogeneously-typed columns, as in an SQL table or Excel spreadsheet.
+Pandas can work on Ordered and unordered time series data.
+Pandas can also work on arbitrary matrix data (homogeneously typed or heterogeneous) with row and column labels.
+
+
+A _______________ is a two-dimensional labelled data structure .
+- DataFrame
+
+
+import pandas as pd     
+iris=pd.read_csv(“https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data”)
+df = iris
+Any changes done in df will reflect in iris
+- True
+
+
+import pandas as pd     
+iris=pd.read_csv(“https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data”)
+df = iris.copy()
+Changes via df will reflect in iris.
+- False
+
+
+Which statement is true about iris dataset:
+- The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor).
+In iris dataset 4 features were measured from each sample: the length and the width of the sepals and petals, in centimetres.
+
+
+What all statements are true:
+- Scikit focus on modeling data.
+Scikit not focused on loading, manipulating and summarizing data.
+NumPy and Pandas are used for loading, manipulating and summarizing data features.
+
+
+import pandas as pd   
+iris=pd.read_csv(“https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data”)
+Pick the correct option to summarize how many null entry in each column
+- iris.isnull().sum()
+
+
+From the iris dataset used, Pick the correct statement to get data from row 1 to 3 with only 2nd column
+- iris.iloc[1:4, 2:3]
+
+
+import pandas as pd   
+iris=pd.read_csv(“https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data”)
+iris.drop(0)
+print(iris)
+Above code will result in -
+- No changes in iris dataframe
+
+
+import pandas as pd   
+iris=pd.read_csv(“https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data”)
+iris.drop(0, inplace = True)
+drop method in above code makes which one of the following changes in iris dataframe
+- Delete one row in iris dataframe itself
+
+
+import pandas as pd   
+iris=pd.read_csv(“https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data”)
+iris.drop(0,inplace= True)
+iris.drop(0,inplace= True)
+print(iris)
+what will be the output -
+- Error
+
+
+Which is true?
+- a) Pandas support non-unique index values. If an operation that does not support duplicate index values is attempted, an exception will be raised at that time.
+b) Pandas supports label based indexing. “.loc” is primarily label based, but may also be used with a boolean array. .loc will raise KeyError when the items are not found.
+c) Pandas used the range method for implicit indexing. Pandas provide a suite of methods in order to get purely integer based indexing. The semantics follow closely python and NumPy slicing. These are 0-based indexing. When slicing, the start bounds is included, while the upper bound is excluded. Trying to use a non-integer, even a valid label will raise an IndexError. The .iloc attribute is the primary access method. 
+
+
+In pandas, Index values must be?
+- unique & hashable
+
+
+Which of the following statements are true:
+- The describe() method is used for calculating some statistical data like percentile, mean and std of the numerical values of the Series or DataFrame.
+It analyzes both numeric and object series and also the DataFrame column sets of mixed data types.
+It returns the statistical summary of the Series and DataFrame.
+
+
+To display 3 rows from the bottom of a data frame which of the following can be written?
+(i) df.tail(3)
+(ii) df.iloc[-3:]
+- both are correct
+
+
+Which statement select rows in a pandas DataFrame with condition "column_name" has values greater than 10?
+- df[ df.column_name > 10 ]
+
+
+Which of the following is used to drop a column in pandas in the data frame itself ?
+- df.drop("column_name", axis=1, inplace=True)
+
+
+Which feature will separate the Flower 1 from flower 2 & 3?
+- pl, pw
+
+
+How to reset index in pandas dataframe without saving it as a column?
+- df.reset_index(drop=True)
+
+
+What is the use of the axis parameter?
+- Sometimes we need to do operations only on rows, and sometimes only on columns, in such situations, we specify the axis parameter.
+When the axis is set to zero while performing a specific action, the action is performed on rows that satisfy the condition.
+When the axis is set to one while performing a specific action, the action is performed on column(s) that satisfy the condition.
+
+
+Which of the following ways can be used to delete a column in pandas?
+- df.drop('column_name', axis=1, inplace=True)
+del df['column_name']
+
+
+A DataFrame has columns "col1" and "col2", which statement is correct to create a new column "total" by adding columns col1 and col2 ?
+- data["total"] = data["col1"] + data["col2"]
+
+
+Which of the following is used to generate a data frame based on two conditions,  the first condition is df[“col1”]> 23 and the second condition is df [“col2”]% 2 == 0 ?
+- masked_df = df[ (df[“col1”] > 23) & (df[“col2”] % 2 == 0) ]
+
+
+The function to fill in NAN values with 10,if df is the dataframe object?
+- df.fillna(10)
+
+
+What is the function used to drop the rows with NAN values?
+- dropna()
+
+
+............... can be used to detect missing values for a dataframe object df
+- isnull()	
+
+
+Which method should be used in pandas to add a column to a specific position in a DataFrame ?
+- insert() [DataFrame.insert(loc, column, value)]

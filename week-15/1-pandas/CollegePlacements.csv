@@ -1,0 +1,216 @@
+S.no,Name,Gender,MBA_percentage,Highschool_percentage,Status,Salary
+1,Rick Hansen,M,91,58.8,Placed,270000
+2,Justin Ritter,M,78.33,66.28,Placed,200000
+3,Craig Reiter,M,68,57.8,Placed,250000
+4,Katherine Murray,M,52,59.43,Not Placed,0
+5,Rick Hansen,M,73.6,55.5,Placed,425000
+6,Jim Mitchum,M,49.8,51.58,Not Placed,0
+7,Toby Swindell,F,49.2,53.29,Not Placed,0
+8,Mick Brown,M,64,62.14,Placed,252000
+9,Jane Waco,M,79,61.29,Placed,231000
+10,Joseph Holt,M,70,52.21,Not Placed,0
+11,Greg Maxwell,M,61,60.85,Placed,260000
+12,Anthony Jacobs,M,68.4,63.7,Placed,250000
+13,Magdelene Morse,F,55,65.04,Not Placed,0
+14,Vicky Freymann,F,87,68.63,Placed,218000
+15,Peter Fuller,M,47,54.96,Not Placed,0
+16,Ben Peterman,F,75,64.66,Placed,200000
+17,Thomas Boland,M,66.2,62.54,Placed,300000
+18,Patrick Jones,F,67,67.28,Not Placed,0
+19,Jim Sink,F,66,64.08,Not Placed,0
+20,Ritsa Hightower,M,67,77.89,Placed,236000
+21,Ann Blume,M,65,56.7,Placed,265000
+22,Sue Ann Reed,F,76,69.06,Placed,393000
+23,Jason Klamczynski,F,60.8,68.81,Placed,360000
+24,Laurel Beltran,F,60,63.62,Placed,300000
+25,Naresj Patel,M,97.7,74.01,Placed,360000
+26,Valerie Dominguez,F,54.6,65.33,Not Placed,0
+27,Phillip Breyer,M,79,57.55,Placed,240000
+28,Eugene Barchas,M,67,57.69,Placed,265000
+29,Karen Ferguson,M,76.5,64.15,Placed,350000
+30,Benjamin Patterson,M,67,51.29,Not Placed,0
+31,Rick Reed,F,73.5,56.7,Placed,250000
+32,Bill Shonely,F,53,58.32,Not Placed,0
+33,Joel Eaton,F,81,62.21,Placed,278000
+34,Dave Poirier,F,65,72.78,Placed,260000
+35,Nora Preis,M,51,62.77,Not Placed,0
+36,Aaron Hawkins,F,78,62.74,Placed,300000
+37,Darrin Martin,M,44,51.45,Not Placed,0
+38,Grant Thornton,F,76,55.47,Placed,320000
+39,Patrick O'Donnell,F,58,56.86,Placed,240000
+40,Dan Lawera,M,68,62.56,Placed,411000
+41,Joy Bell-,F,77,66.72,Placed,287000
+42,Barry Franz,F,63.16,69.76,Not Placed,0
+43,Vivek Grady,M,39,51.21,Not Placed,0
+44,Greg Tran,M,87,62.9,Placed,300000
+45,Zuschuss Carroll,F,73,69.7,Placed,200000
+46,Sanjit Chand,F,64,66.53,Not Placed,0
+47,Ellis Ballard,F,71.98,71.63,Not Placed,0
+48,Arthur Prichep,M,60,54.55,Placed,204000
+49,Scott Williamson,M,62,62.46,Placed,250000
+50,John Huston,F,37,56.11,Not Placed,0
+51,Lena Creighton,F,73.2,62.98,Placed,200000
+52,Trudy Glocke,M,61.12,62.65,Not Placed,0
+53,Harold Ryan,F,45.83,65.49,Not Placed,0
+54,Phillip Breyer,M,70,71.04,Placed,450000
+55,Deirdre Greer,F,60,65.56,Placed,216000
+56,Sheri Gordon,M,66.6,52.71,Placed,220000
+57,Fred Hopkins,M,71.4,66.88,Placed,240000
+58,Guy Phonely,M,76,63.59,Placed,360000
+59,Mitch Webber,M,62,57.99,Placed,268000
+60,Patrick O'Brill,M,65.58,56.66,Placed,265000
+61,Chuck Sachs,M,70,57.24,Placed,260000
+62,Keith Dawkins,M,73.4,62.48,Placed,300000
+63,Michael Stewart,F,64.2,59.69,Placed,240000
+64,Kimberly Carter,M,70,59.5,Not Placed,0
+65,Denny Blanton,M,73,58.78,Placed,240000
+66,Jonathan Doherty,M,47,57.1,Not Placed,0
+67,Dave Kipp,M,74,58.46,Placed,275000
+68,Cari Sayre,M,78.5,60.99,Placed,275000
+69,Evan Minnotte,F,47,59.24,Not Placed,0
+70,Dianna Wilson,M,73,68.07,Placed,275000
+71,Alan Schoenberger,M,61,65.45,Placed,360000
+72,Shui Tom,M,70.29,66.94,Placed,240000
+73,Barry Weirich,M,67,68.53,Placed,240000
+74,Laura Armstrong,M,83.83,59.75,Placed,218000
+75,Aimee Bixby,M,64.8,67.2,Placed,336000
+76,John Huston,F,62,67,Not Placed,0
+77,Christopher Martinez,F,70.4,64.27,Placed,230000
+78,Bobby Elias,M,80,57.65,Placed,500000
+79,Sam Zeldin,M,90.9,59.42,Placed,270000
+80,Raymond Messe,F,62,67.99,Not Placed,0
+81,Harry Greene,F,62,62.35,Placed,240000
+82,Dave Poirier,M,63,70.2,Placed,300000
+83,Andy Reiter,M,67,60.44,Not Placed,0
+84,Tom Prescott,M,79,66.69,Placed,300000
+85,Joy Bell-,M,63,62,Placed,300000
+86,Anne McFarland,F,89.83,76.18,Placed,400000
+87,Alejandro Ballentine,M,63,57.03,Placed,220000
+88,Rachel Payne,M,51,59.08,Not Placed,0
+89,Berenike Kampe,F,62,64.36,Placed,210000
+90,Janet Martin,F,75,62.36,Placed,210000
+91,Guy Phonely,F,90,68.03,Placed,300000
+92,Lindsay Williams,M,57,62.79,Not Placed,0
+93,Nick Zandusky,F,69,59.47,Placed,230000
+94,Stuart Van,M,62,55.41,Not Placed,0
+95,Steve Chapman,M,62,54.97,Placed,260000
+96,Noah Childs,M,78,62.16,Placed,420000
+97,Natalie Fritzler,F,70,64.44,Placed,300000
+98,Nick Zandusky,F,62.5,69.03,Not Placed,0
+99,Paul MacIntyre,F,73,57.31,Placed,220000
+100,Maria Zettner,M,82,59.47,Not Placed,0
+101,Henry MacAllister,F,57,64.95,Not Placed,0
+102,Rick Wilson,M,72,60.44,Placed,380000
+103,Logan Haushalter,F,61,61.31,Placed,300000
+104,Fred Hopkins,M,78,65.83,Placed,240000
+105,Khloe Miller,M,63,58.23,Placed,360000
+106,Patrick O'Donnell,M,64,55.3,Not Placed,0
+107,Adam Bellavance,M,50,65.69,Not Placed,0
+108,Adam Bellavance,M,90,73.52,Placed,200000
+109,Dave Brooks,M,82,58.31,Placed,300000
+110,Valerie Mitchum,M,63,56.09,Not Placed,0
+111,Bill Shonely,F,70,54.8,Placed,250000
+112,Don Miller,M,54,60.64,Not Placed,0
+113,Neoma Murray,M,61,53.94,Placed,250000
+114,Lena Creighton,F,79,63.08,Placed,280000
+115,Rose O'Brian,M,68,55.01,Placed,250000
+116,Sarah Brown,F,63,60.5,Placed,216000
+117,Erin Mull,M,72.8,70.85,Placed,300000
+118,Roland Schwarz,M,75,67.05,Placed,240000
+119,Odella Nelson,M,80,70.48,Placed,276000
+120,Vivek Sundaresam,M,68.4,64.34,Placed,940000
+121,Chad McGuire,M,40,58.81,Not Placed,0
+122,Tom Boeckenhauer,F,67,71.49,Placed,250000
+123,Adrian Barton,F,66.8,71,Placed,236000
+124,Jason Klamczynski,M,59,56.7,Placed,240000
+125,Rachel Payne,M,71,61.26,Placed,250000
+126,Don Weiss,F,73,73.33,Placed,350000
+127,Penelope Sewall,F,61,68.2,Placed,210000
+128,Christopher Conant,F,60,58.4,Placed,250000
+129,Toby Carlisle,M,73.4,76.26,Placed,400000
+130,Gary McGarr,M,89.7,68.55,Placed,250000
+131,Stuart Van,M,65,64.15,Not Placed,0
+132,Michael Moore,F,57,60.78,Placed,360000
+133,Julie Kriz,M,68,53.49,Placed,300000
+134,Evan Minnotte,M,64,60.98,Placed,250000
+135,Don Jones,F,92,67.13,Placed,250000
+136,Paul MacIntyre,F,56,65.63,Placed,200000
+137,Alyssa Tate,F,59,61.58,Not Placed,0
+138,Aaron Bergman,M,63,60.41,Placed,225000
+139,Resi Pölking,F,64,71.77,Placed,250000
+140,Max Jones,M,70,54.43,Placed,220000
+141,Paul Van Hugh,M,64.8,56.94,Placed,265000
+142,Sean Braxton,M,64,61.9,Not Placed,0
+143,Sally Matthias,M,60,61.29,Placed,260000
+144,Karen Ferguson,M,64.89,60.39,Placed,300000
+145,Katharine Harms,M,50,58.52,Not Placed,0
+146,Mike Pelletier,M,65.66,63.23,Placed,400000
+147,Lisa Hazard,M,63,55.14,Placed,233000
+148,Natalie DeCherney,M,74,62.28,Placed,300000
+149,Corey Roper,F,86,64.08,Placed,240000
+150,Noah Childs,M,58,58.54,Not Placed,0
+151,Greg Matthias,M,58.66,61.3,Placed,690000
+152,Ryan Akin,M,65,58.87,Placed,270000
+153,Dave Brooks,F,60.5,65.25,Placed,240000
+154,Bart Watters,M,59,62.48,Placed,340000
+155,Roland Fjeld,M,63,53.2,Placed,250000
+156,John Huston,M,74.66,65.99,Not Placed,0
+157,Anna Gayman,M,69.4,52.72,Placed,255000
+158,Dario Medina,M,62.5,55.03,Placed,300000
+159,Karen Daniels,M,63,61.87,Not Placed,0
+160,Bill Eplett,M,49,60.59,Not Placed,0
+161,Sean O'Donnell,M,74,72.29,Placed,300000
+162,Damala Kotsonis,M,51,62.72,Not Placed,0
+163,Liz Carlisle,M,87.6,66.06,Placed,285000
+164,Phillip Breyer,M,67,66.46,Placed,500000
+165,Claire Gute,F,72.5,65.52,Placed,250000
+166,Toby Braunhardt,F,78.33,74.56,Not Placed,0
+167,Hunter Glantz,M,62,52.38,Placed,240000
+168,Alan Dominguez,M,62,75.71,Not Placed,0
+169,Becky Pak,F,51,58.79,Not Placed,0
+170,Andrew Allen,M,42.16,65.48,Not Placed,0
+171,Rob Lucas,F,67.2,69.28,Not Placed,0
+172,Cindy Stewart,M,80,66.04,Placed,290000
+173,Scot Wooten,M,58,52.64,Placed,300000
+174,Tom Ashbrook,F,52,59.32,Not Placed,0
+175,Bart Watters,M,50.83,66.23,Placed,500000
+176,Yoseph Carroll,M,62,60.69,Not Placed,0
+177,Jill Matthias,F,60,57.9,Placed,220000
+178,Maria Zettner,F,97,70.81,Placed,650000
+179,Jason Fortune-,M,56,68.07,Placed,350000
+180,John Lee,F,64,72.14,Not Placed,0
+181,Don Jones,M,71.5,56.6,Placed,265000
+182,Monica Federle,M,60.33,60.02,Not Placed,0
+183,Toby Carlisle,M,65,59.81,Not Placed,0
+184,Jim Epp,M,77,61.82,Placed,276000
+185,Christine Phan,F,62.83,57.29,Not Placed,0
+186,Eugene Hildebrand,F,72,71.43,Placed,252000
+187,Nat Carroll,F,64,62.93,Not Placed,0
+188,Barry Franz,M,65.5,64.86,Placed,280000
+189,Joy Smith,M,47,56.13,Not Placed,0
+190,Alice McCarthy,F,77.6,66.94,Not Placed,0
+191,Jamie Frazer,F,70.2,62.5,Not Placed,0
+192,Aaron Bergman,M,61,61.01,Placed,264000
+193,James Galang,M,61.4,57.34,Placed,270000
+194,Dennis Pardue,F,63,56.63,Placed,300000
+195,Alex Grayson,M,55,64.74,Not Placed,0
+196,Grace Kelly,M,76,58.95,Placed,275000
+197,Neil Französisch,M,63,54.48,Placed,250000
+198,Yoseph Carroll,F,53,69.71,Placed,260000
+199,Daniel Raglin,F,70,71.96,Not Placed,0
+200,Nona Balk,M,65,55.8,Placed,265000
+201,Nathan Mautz,M,60,52.81,Placed,300000
+202,Tom Ashbrook,M,63,58.44,Not Placed,0
+203,Nora Paige,M,63,60.11,Placed,240000
+204,Shahid Collister,M,61.33,58.3,Placed,260000
+205,Pete Armstrong,F,73,67.69,Placed,210000
+206,Rob Beeghly,M,62,56.81,Placed,250000
+207,Steven Roelle,M,42,53.39,Not Placed,0
+208,Rick Huthwaite,M,78,71.55,Placed,300000
+209,Larry Hughes,F,60,62.92,Not Placed,0
+210,James Galang,M,72,56.49,Placed,216000
+211,Ken Black,M,82,74.49,Placed,400000
+212,Logan Haushalter,M,60,53.62,Placed,275000
+213,Eleni McCrary,M,67,69.72,Placed,295000
+214,Mary Zewe,F,66,60.23,Placed,204000
+215,Kent Will,M,58,60.22,Not Placed,0
