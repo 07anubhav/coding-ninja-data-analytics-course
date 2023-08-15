@@ -1,0 +1,80 @@
+The interface of Matplotlib used for data visualization is
+- Pyplot
+
+
+__________________ means graphical or pictorial representation of the data using graph, chart, etc.
+- Data visualization
+
+
+_____________ function of the pyplot module is used to create a figure/chart/plot.
+- plot()
+
+
+______________ function is used to display figure/chart.
+- show()
+
+
+To plot x versus y, we can write ________________
+- plt.plot(x,y)
+
+
+By default plot() function plots a ________________
+- Line chart
+
+
+Which of the following pyplot function is used to set the label for the x-axis.
+- xlabel()
+
+
+Which of the following pyplot function is used to set a title for the chart.
+- title()
+
+
+Write a statement to “use * as marker” . (consider plt as an alias name of matplotlib.pyplot)
+- plt.plot(x, y, marker = “*”)
+
+
+Which attribute of plot( ) function is used to set the width of line in line plot?
+- linewidth
+
+
+Which of the following pyplot function is used to plot pie chart.
+- pie()
+
+
+Which of the following pyplot function is used to plot histogram.
+- hist( )
+
+
+Which of the following is correct syntax to create histogram with bins specified?
+- Plt.hist(x, bins=10)
+Plt.hist(x,bins = [10,11,12,13,14])
+Plt.hist(x, bins = range(10,15))
+
+
+Which of the following pyplot function is used to plot bar graph.
+- bar()
+
+
+To compare data we can use ____ chart.
+- bar
+
+
+Values which are displayed on x-axis is called ___________
+- xticks
+
+
+Which attribute of plot( ) function is used to set the edge color of bar in bar chart?
+- edgecolor
+
+
+What will be the output of the following code?
+i=1
+while i<5:
+    if i == 3:
+        break
+    print(i, end=" ")
+    i = i + 1
+else:
+    print(“Else is also printed”)
+- 1 2
