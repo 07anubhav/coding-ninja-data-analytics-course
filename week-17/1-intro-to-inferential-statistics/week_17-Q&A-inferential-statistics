@@ -1,0 +1,130 @@
+The shape of the Normal Curve is ___________
+- Bell Shaped
+
+
+The measurement techniques used to measure the extent of skewness in data set values are called:
+- The measure of Skewness
+
+
+If the distribution is negatively skewed, then the:
+- The mean is less than mode (Left Skewed: Mean < Median < Mode (Mean is not able to represent central part of data). So, we will take help of median to represent central part of data)
+
+
+Rebecca wants to know how many books students in her school read over summer vacation. She attends a large school, and doesn’t have time to ask every student. Which of the following would best allow her to make generalizations about all students in her school ?
+- Select 40 students from her school at random (For generalizations, the sample should be selected from the population. Here the population is all the students from her school)
+
+
+What is the purpose of an inferential statistical test ?
+- To check the probability of your results applying to the wider population
+
+
+A random variable is -
+- a variable whose value is a numerical outcome associated with a random phenomenon.
+
+
+Which of the following is not a random variable?
+- The suit of a card randomly selected from a 52-card deck is not a random variable because the outcome will be the same for selecting any suit.
+
+
+Which of the following random variables is NOT continuous ?
+- Number of goals scored by a hockey team.
+
+
+Which one of the following is a discrete random variable ?
+- The number of Sam's brothers and sisters is a discrete random variable. All other are continuous.
+Sam's height
+Sam weight
+Time Sam takes in running the 110 m hurdles
+
+
+Classify: The numbers of cheeseburgers a fast-food restaurant serves each day
+- Discrete
+
+
+What shape is a normal distribution curve ?
+- Bell curve
+
+
+Standard Normal Distribution helps in Detecting Outliers?
+- True
+
+
+The z-score represents ?
+- The z-score represents the number of standard deviations a data value is above or below the mean.
+
+
+The monthly phone bills in a city are normally distributed with a mean of 30$ and a standard deviation of 12$. Find the x-value that correspond to z-scores of 3.17
+- 68.04
+The formula for Z score is:
+z = (x – μ) / σ
+
+
+μ = 70 , σ = 8 , X = 50 . Find z-score
+- -2.5
+
+
+The shape of the sampling Distribution reveals the shape of population ?
+- False
+
+
+28% of all Woodrow students believe Monday will be snow day. You take a sample of 50 students and find that 15 of them believe Monday will be a snow day. What does 50 represent?
+- Sample size
+
+
+What happens to the shape of a sampling distribution of sample means as n increases?
+- It becomes narrower and more normal.
+
+
+These symbols represent the mean and standard deviation for which of the following distributions?
+x̅ and Sx
+- The sample
+
+
+These symbols represent the mean and standard deviation for which of the following distributions?
+μM and σM
+- The Sampling Distribution
+
+
+These symbols represent the mean and standard deviation for which of the following distributions?
+μ and σ
+- The Population
+
+
+The mean and standard deviation of a population are 200 and 20, respectively. The sample size is 25.
+What is the mean of the sampling distribution?
+- 200
+The central limit theorem gives a formula for the sample mean and the sample standard deviation when the population mean and standard deviation are known. This is given as follows: 
+Sample mean = Population mean = μ
+Sample standard deviation = (Population standard deviation) / √n = σ / √n.
+
+
+The mean and standard deviation of a population are 200 and 20, respectively. Sample size is 25.
+What is the standard deviation of the sampling distribution?
+- 4
+The central limit theorem gives a formula for the sample mean and the sample standard deviation when the population mean and standard deviation are known. This is given as follows: 
+Sample mean = Population mean = μ
+Sample standard deviation = (Population standard deviation) / √n = σ / √n.
+In our example, the standard deviation is:
+20/(root(25)) = 20/5 = 4.
+
+
+Which of the following are types of correlation?
+- Positive and negative correlation.
+Linear and non-linear correlation.
+Simple, multiple, and partial correlation.
+
+
+Which of the following is true for the coefficient of correlation?
+- The coefficient of correlation is not dependent on both the change of scale and change of origin
+
+
+Which of the following statements is true for correlation analysis?
+- Correlation analysis in research is a statistical method used to measure the strength of the linear relationship between two variables and compute their association. Simply put - correlation analysis calculates the level of change in one variable due to the change in the other. It is both bivariate and multivariate analysis.
+
+
+If the values of two variables move in the same direction, ___________
+- The correlation is said to be positive
+
+
+If the values of two variables move in the opposite direction, ___________
+- The correlation is said to be negative

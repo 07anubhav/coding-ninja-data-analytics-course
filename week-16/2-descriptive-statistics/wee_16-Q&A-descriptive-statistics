@@ -1,0 +1,136 @@
+Which of these measures are used to analyze the central tendency of data?
+- Mean, Median and Mode
+
+
+Which of the following definitions is the definition of the MODE ?
+- The mode is the value that appears most frequently in a data set. A set of data may have one mode, more than one mode, or no mode at all.
+Example: 3, 3, 6, 9, 16, 16, 16, 27, 27, 37, 48
+In this list of numbers, 16 is the mode since it appears more times in the set than any other number
+
+
+A list of 5 rates is: 70, 64, 80, 74, 92. What is the median for this list?
+- 74
+
+
+What is the median of the following numbers ?
+1, 2, 10, 6, 4, 4, 6, 3, 1, 41, 2, 10, 6, 4, 4, 6, 3, 1, 4
+- 4
+
+
+In statistics out of 100, marks of 21 students in final exams are as 90, 95, 95, 94, 90, 85, 84, 83, 85, 81, 92, 93, 82, 78, 79, 81, 80, 82, 85, 76, 85 then mode of data is
+- 85
+
+
+What is the mode and the mean for the following set of numbers?{4,9,8,2,16,4,4,8,9,6}
+- Mean = 7, mode =4
+
+
+Four friends take an IQ test. Their scores are 96, 100, 106, 114. Which of the following statements is true?
+I.   The mean is 103. 
+II.  The mean is 104. 
+III. The median is 100. 
+IV.  The median is 106.
+- Only II
+
+
+Five numbers are given: (5, 10, 15, 5, 15). Now, what would be the sum of deviations of individual data points from their mean ?
+- 0 
+For the list given, the mean is (5 + 10 + 15 + 5 + 15)/5 = 10.
+Finding individual data points from their mean is:
+Firstly arrange it in ascending order:
+5,5,10,15,15
+5 - 10 = -5
+5 - 10 = -5
+10 - 10 = 0
+15 - 5 = 5
+15 - 5 = 5
+(-5 + -5 + 0 + 5 + 5) = 0
+So, the sum of deviations of individual data points from their mean = 0.
+
+
+Which of the following measures of central tendency will always change if a single value in the data changes?
+- Mean (The mean of the dataset would always change if we change any value of the data set. Since we are summing up all the values together to get it, every value of the data set contributes to its value. Median and mode may or may not change with altering a single value in the dataset)
+
+
+Under what circumstances should we be cautious about using the mean as a measure of central tendency ?
+- When data is left skewed, When data is right skewed
+
+
+For data to be normally distributed, which of the following characteristics should it have ?
+- To be defined as ‘normal’ a distribution should be symmetrical about the mean, it should meet the x axis at infinity and it should be bell shaped
+
+
+If a positively skewed distribution (right skewed) has a median of 50, which of the following statement is true ?
+- Mean is greater than 50, Mode is less than 50
+If the distribution of data is skewed to the left, the mean is less than the median, which is often less than the mode. If the distribution of data is skewed to the right, the mode is often less than the median, which is less than the mean.
+
+
+Consider the following data set -
+14, 23, 9, 12, 21, 18, 
+What is the range?
+- 14
+
+
+Variability which is defined as difference between third and first quartile is considered as -
+- IQR
+
+
+If large number of values lies in the central part of data table then spread of values is measured by -
+- IQR
+
+
+Which one of these statistics is unaffected by outliers ?
+- IQR
+
+
+If value of first quartile is 49 and value of third quartile is 60 then value of inter quartile range is -
+- 11
+
+
+Consider the following data set :
+14, 23, 9, 12, 21, 18, 
+What is the variance for population.
+- 24.4 (Variance (population) = Σ [(xi - μ)^2] / N)
+
+
+Consider the following data set:
+14, 23, 9, 12, 21, 18, 
+What is the standard deviation (for sample) ?
+- 5.40 
+
+Standard deviation can be negative ?
+- False
+
+Standard deviation is robust to outliers ?
+- False (If you look at the formula for standard deviation above, a very high or a very low value would increase standard deviation as it would be very different from the mean. Hence outliers will effect standard deviation)
+
+
+For the data set below, which value is in the 75th percentile ?
+{1, 3, 3, 4, 6, 7, 7, 7, 8, 9, 9, 10, 12, 15, 16, 17}
+- 12
+We want to find the data value for which 75% of the data set is less than or equal to number. 
+Note that there are a total of 16 values in the set; thus, 75% of the data set is 12 values. Because the data set is ordered, we need simply find the 12th data value; then, 75% (12 out of 16 values) of the data set will be less than or equal to this value. The number 10 is the 75th percentile: 75% of the values in the set are less than or equal to 10.
+
+
+Which of the following data values is the 50th percentile ?
+{1.52, 5.36, 6.79, 5.21, 0.28, 6.36, 8.47, 5.52, 6.26, 5.97}
+- 5.745
+
+
+What is Q3 for the following data set ?
+{20, 40, 50, 65, 70, 75, 80, 100}
+- 77.5
+Let's calculate the third quartile (Q3) for the given data set {20, 40, 50, 65, 70, 75, 80, 100} correctly.
+Since there are 8 data points, the position of the 75th percentile can be calculated as follows:
+Position = 0.75 * (8 + 1) = 6.75
+The position 6.75 falls between the 6th and 7th values in the ordered data set. The 6th value is 75, and the 7th value is 80. To find the Q3 value, you can take the average of these two values:
+Q3 = (75 + 80) / 2 = 77.5
+So, the correct third quartile (Q3) for the given data set is 77.5.
+
+
+If you have a negative z-score it will be below the mean
+- True
+
+
+A national achievement test is administered annually to 3rd graders. The test has a mean score of 100 and a standard deviation of 15. If Jane's z-score is 1.20, what was her score on the test ?
+- 118

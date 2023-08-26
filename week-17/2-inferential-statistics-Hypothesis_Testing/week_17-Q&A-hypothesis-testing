@@ -1,0 +1,43 @@
+A statement made about a population for testing purposes is called?
+- Hypothesis
+
+
+A hypothesis which defines the population distribution is called?
+- Simple Hypothesis
+
+
+If the null hypothesis is false then which of the following is accepted?
+- If the null hypothesis is false then the Alternative Hypothesis is accepted. It is also called as Research Hypothesis.
+
+
+The rejection probability of the Null Hypothesis when it is true is called?
+- The level of Significance is defined as the probability of rejection of a True Null Hypothesis. Below this probability, a Null Hypothesis is rejected.
+
+
+Which of the following is defined as the rule or formula to test a Null Hypothesis?
+- Test statistic provides a basis for testing a Null Hypothesis. A test statistic is a random variable that is calculated from sample data and used in a hypothesis test.
+
+
+The region of rejection of H0 is called
+- Critical Region
+
+
+The point where the Null Hypothesis gets rejected is called?
+- The point where the Null Hypothesis gets rejected is called Critical Value. It is also called a dividing point for the separation of the regions where the hypothesis is accepted and rejected.
+
+
+If population standard deviation is unknown and then appropriate test statistics mean the comparison is
+- If population standard deviation is unknown and then appropriate test statistics mean the comparison is a T-test. A t-test is a type of inferential statistic used to determine if there is a significant difference between the means of two groups, which may be related to certain features.
+
+
+
+Consider a hypothesis H0 where ϕ0 = 5 against H1 where ϕ1 > 5. The test is?
+- Right tailed test (In the given example since H1 lies to the right of the Ho that is the Null Hypothesis the test is referred to as a Right tailed test)
+
+
+Type 1 error occurs when?
+- In Testing of Hypothesis Type 1 error occurs when we reject H0 if it is True. On the contrary, a Type 2 error occurs when we accept H0 if it is False.
+
+
+The probability of Type 1 error is referred to as?
+- In Testing of Hypothesis Type 1 error occurs when we reject H0 if it is True. If the probability of H0 is α then the error probability will be 1- α.

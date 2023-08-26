@@ -1,0 +1,150 @@
+What do u mean by statistics?
+- Statistics is the study and manipulation of data.
+Statistics includes ways to gather, review, analyze, and draw conclusions from data.
+Statistics can be used to make better-informed business and investing decisions.
+
+
+What are the basic elements of Statistics?
+- Population, Sample
+
+
+Discrete variables and continuous variables are two types of
+- quantitative classification	
+
+
+Which one of the following variables is not categorical ?
+- Age of a person
+
+
+Which of the following statements are true?
+I. All variables can be classified as quantitative or categorical variables. 
+II. Categorical variables can be continuous variables. 
+III. Quantitative variables can be discrete variables
+- I and III
+
+
+Match the following datatypes with their corresponding examples:
+The following are the datatypes
+a) Nominal				i) Ranking of users in a competition: The first, second, and third, etc.
+b) Ordinal				ii) The amount of time required to complete a project.
+c) Discrete				iii) The number of students in a class.
+d) Continuous			iv) Gender (Women, Men)
+- a: iv, b: i, c: iii, d: ii
+
+
+Fifty bottles of water were randomly selected from a large collection of bottles in a company's warehouse. These fifty bottles are referred to as the
+- Sample
+
+
+Fifty bottles of water were randomly selected from a large collection of bottles in a company's warehouse. The large collection of bottles is referred to as the
+- Population
+
+
+A survey will be given to 100 students randomly selected from the class 10 students of DPS school. What is the population?
+- All students in class 10
+
+
+A survey will be given to 100 students randomly selected from the class 10 students of DPS school. What is the sample ?
+- The 100 selected students
+
+
+A mean is known as a statistic if it is computed from the -
+- Sample
+
+
+A medical researcher obtained blood specimens from a simple random sample (SRS)of 31 young children in New Delhi, all of whom were infected with malaria. What group of individuals is the most reasonable choice to serve as the population in this setting?
+- all children in New Delhi, who have malaria
+
+
+Which of the following statements are true?
+I. The mean of a population is denoted by x. 
+II. Sample size is never bigger than population size. 
+III. The population mean is a statistic.
+- None of the above (The mean of a population is denoted by μ; not x. When sampling with replacement, sample size can be greater than population size. And the population mean is a parameter; the sample mean is a statistic)
+
+
+An employee at USC’s SSC office wants to know what percentage of undergraduate students are satisﬁed with the services oﬀered at the SSC. She takes a simple random sample of 100 USC undergraduates and ﬁnds that 77 of them aresatisﬁed. In statistics terminology, the number 77% is -
+- Statistic
+
+
+We take a simple random sample (SRS) of 15 students from a class. What are the deﬁning characteristic of this sample ?
+- Each student of class has the same chance of being selected
+A student can not appear more than once in the sample
+
+
+What is the degree to which sample statistics differ from the equivalent population parameter known as ?
+- Sampling Error
+
+
+A truck manufacturer selects 300 trucks at random from each of 600 models for safety testing. Which sampling is this ?
+- Stratified Sampling
+
+
+A company has imported 10000 bulbs from 2 different manufacturing units. The manager wants to take a sample of bulbs to estimate what proportion of bulbs are defective. The manager is planning to use stratified random sampling to take samples from each manufacturing unit.
+Why using stratification instead of a simple random sample will be a better way to estimate the defective bulbs ?
+- A stratified random sample reduces the likelihood of getting disproportionate numbers of bulbs from manufacturing unit 1 and 2. 
+
+
+A company has a total of 360 employees in four different categories:
+Managers            	36
+Drivers              	54
+Administrative Staff    90
+Production Staff        180
+How many employees from drivers category should be included in a proportionate stratified random sample of size 20 ?
+- Answer is 3
+The proportionate stratified random sample will be obtained using this formula: 
+(sample size/population size) x stratum size.
+For our case:
+Sample size = 20
+Population Size = 360
+Stratum size(drivers) = 54
+(20/360)*54 = 3
+
+
+Which of the following is a type of Cluster sampling?
+- Two-Stage Cluster Sampling
+
+
+The police set up checkpoints at randomly selected road locations, then inspected every driver at those locations. What type of sample is this?
+- Cluster sampling
+
+
+A teacher puts students' names in a hat and chooses without looking to get a sample of 300 students. What type of sampling is this ?
+- Simple random sampling
+
+
+In systematic sampling, value of k is classified as -
+- sampling interval
+
+
+In systematic sampling, the population is 200 and selected sample size is 50 then sampling interval is -
+- Answer is 4
+Formula
+k={N}/{n}
+k	=	systematic sampling interval
+{N}	=	population size
+{n}	=	sample size
+In our problem:
+N = 200
+n = 50
+k = 200/50 = 4
+
+
+Type of statistics that involves drawing conclusions from sample data analysis to population, is known to be -
+- Inferential Statistics
+
+
+Which among the following is the benefit of using simple random sampling?
+- We can calculate the accuracy of the results. (As the chance for every data point to be part of the subset is similar. this is why it will give give accurate result)
+
+
+Sample is regarded as a subset of?
+- Population
+
+
+A teacher wants to know how well her students are doing on a topic. She randomly picks one class to survey.
+- Cluster Sampling
+
+
+Randomly selecting 3 classes from a school and then investigating these classes further is an example of ?
+- Cluster Sampling
