@@ -1,0 +1,78 @@
+What is the total number of sales of Audi A4 & Audi A6 Models?
+- 39.2
+
+
+What is the total number of Passenger cars(in thousand) sold by Honda?
+- 431
+
+
+How many Toyota Cars were sold in the year 2012?
+- 98k
+
+
+Given below are two tables representing the same information but in a different orientation. Which of the following methods could have been used to change its orientation?
+- Swap Manufacturer and vehicle type in rows and columns
+Using the CTRL+W command
+
+
+Suppose you want to break down the Year into Individual quarters in order to have a better understanding of the situation, so how can you do that?
+- Click on the + sign in front of the YEAR(LATEST LAUNCH) field in Columns
+Drag the LATEST LAUNCH field again into the Columns
+
+
+A Bar Graph/Chart is used to represent ____________ data of a dataset.
+- Categorical
+
+
+Which of the following are true about the Stacked bar chart :
+- Aligned vertically
+Aligned horizontally
+Each bar is divided into several sub-bars stacked end to end
+
+
+To know the exact sales of cars for each manufacturer on their corresponding bar in a Bar Chart, which of the following functionality will be used?
+- Label
+
+
+In the given visualization, if we drag and drop Sales to Size then what will be the change in our Bar Chart?
+- After dragging the Sales onto Size, the size of the ‘Car’ bar will decrease because the Sales of the ‘Car’ vehicle is less than the ‘Passenger’ vehicle type. (VehicleBySales graph)
+
+
+Which of the following are required to create a line chart?
+- One Measure & One dimension value are required to create a Line Chart
+
+
+________________ is used to display measure over a time in tableau?
+- Line chart
+
+
+Using a Line chart, find out the sales in thousands for Q3 in 2012?
+- 1318
+
+
+What is the forecast value of Sales(in Thousands) for January 2014?
+- We can’t calculate the Forecast in tableau for the given Car sales dataset because there are too many missing values in our dataset.
+
+
+Given below a Line chart, which of the following is true after dragging “Vehicle Type” to Color?
+- Will break the given Line into two different Lines intersecting in the Year 2012
+
+
+Scatter plots are used to visualise
+- Two measures value
+
+
+Create a scatter plot for Fuel Efficiency and Fuel Capacity to determine if the manufacturer has minimum Fuel Capacity and Fuel Efficiency.
+- Jaguar
+
+
+Create a scatter plot between Sales and Price for the Car_Sales dataset and find out which of the following manufacturers are Outliers in our dataset?
+- Ford & Mercedes-B
+
+
+Which of the following functions in Marks are necessary to create a Pie Chart?
+- Color, Label, Angle
+
+
+Find out the Percentage contribution of Sales from Passenger vehicle types using a pie chart?
+- 60.27%

@@ -1,0 +1,106 @@
+___________is the presentation of quantitative information in a graphical form.
+- Data Visualisation
+
+
+To visualise data, you can use one of the following?
+- Charts, Graph, Maps
+
+
+What are the benefits of data visualisation?
+- Identifying patterns
+Exploring business insights
+
+
+What are visual representations used for?
+- Bolding or Highlighting main ideas
+To Communicate insights
+
+
+Exploratory analysis is the type of analysis used during the Storytelling phase in Data Analytics(Refer to the provided notes)
+- False (During the storytelling phase, we have the accurate insights drawn after performing data analysis, and now we need to explain these insights to someone else(for example, Stakeholders), and at that phase, Explanatory analysis is used to make others understand the insights drawn to answer our initial data analytics problem)
+
+
+Data visualisation tool developed by Microsoft?
+- Power BI
+
+
+Which software has an intuitive editor known as WYSIWYG (What You See is What You Get)?
+- Infogram ()
+
+
+Which of the following reasons gives an upper edge to Tableau over other Bi tools?
+- Tableau is an easy to use software that a person with no coding background can also use and learn easily. 
+Most of the Bi tools nowadays provide functionalities to connect to various Data sources
+
+
+Which of the following is an example of Data Visualisation that we see in our day to day life?
+- Stock market curves depicting the rise and fall of the various stock prices across a period are an example of Data Visualization. It helps people understand the trend better.
+IPL leaderboard depicting scores of various teams, Most successful teams, is also an example of Data visualisation as it helps the audience understand the tournament easily.
+Sales analysis of a company also takes the help of graphs and charts to understand the trend better and is also an example of data visualisation.
+
+
+Which does not belong to the tableau product family?
+- Tableau private
+
+
+Which Tableau product does not allow editing of data.
+- Tableau reader
+
+
+Which of the following is a free version of Tableau to create visualisations?
+- Tableau public
+
+
+Which of the following are the limitations of Tableau Public?
+- Cannot save workbook locally
+Store only 10 million rows of data
+
+
+Tableau automatically detects the data types of various fields as soon as new data gets uploaded from the source to Tableau.
+- True
+
+
+Suppose we have a dataset storing details of 3 lakh students in which we have a column “BMonth” that stores the Birthday month of various students. The first ¼ Data in our dataset has a student’s Birthday month stored as a string (for example, “March”), and for the remaining student, it is stored in numeric form (for example, “03”). Then what could be the possible data type of column BMonth?
+- Text
+
+
+From where can you change the data type of a column?
+- The left panel of the worksheet area
+Data source page
+
+
+In the Dataset taught by the instructor, which of the following columns were automatically created by Tableau?
+- Measure Names, Measure Values, Longitude, Latitude, and Order(Count) are some of the fields that tableau Automatically creates and are represented in Italics, which distinguishes them from other fields already present in our dataset. 
+
+
+Which of the following icon gives you the functionality to hover over and extract the corresponding information from the created visualization?
+- ToolTip helps to create an information chart that is highlighted when you hover over the parts of a created visualization.
+
+
+What is the main difference between Dimension & measure?
+- Dimension contains qualitative values, and measure contains numeric values
+
+
+What do Green coloured fields in the tableau indicate?
+- Whenever measures and dimensions are in green colour, they are Continuous. Continuous field values can have an infinite range of values.
+
+
+What does the Number of records represent in measures?(refer to notes provided)
+- The number of records is a calculated field near the bottom of the measures shelf, which gives record count based on the dimension and measure added to the data source.
+
+
+Tableau automatically aggregates a value when you add a _________ to the view.
+- Measure
+
+
+In our Car_Sales dataset, you can plot the Vehicle Type field on the Number line.
+- False
+
+
+Connect the given dataset in tableau. Find which of the following feature comes under dimension ? (In car_sales sheet)
+- Latest Launch
+Model
+
+
+Connect the given dataset in tableau. Find which of the following feature was not present in the dataset but created by tableau it self ? (In car_sales sheet)
+- Car_sales(count)
