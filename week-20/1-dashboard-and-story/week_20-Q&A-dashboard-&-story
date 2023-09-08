@@ -1,0 +1,95 @@
+A Calculated field is a field that uses existing database fields and applies additional logic.
+- True (Calculated Fields are the fields created in our dataset using some arithmetic logic, taking the help of some existing fields)
+
+
+Taking the help of Calculated Fields, find out the total market revenue in Car Sales.
+- 35326081
+
+
+How can you access Calculated Fields?
+- Analysis=> Create Calculated Fields
+
+
+Which of the following symbol is used in Commenting on an expression in a Calculated Field?
+- //
+
+
+Which of the following are Calculation Building Blocks? (refer to notes)
+- Operators
+Functions
+
+
+What will be the output of the following statement?
+ABS(-11)
+- 11
+
+
+What will be the output of the following statement? (refer to notes)
+DATEADD(‘month’,3,#2005-05-20#)
+- 2005-08-20
+
+
+What does the LTRIM (string) return in Tableau? (refer to notes)
+- Returns the string with any leading spaces removed.
+
+
+Which of the following brackets are used to write a LOD Calculation?
+- {}
+
+
+Suppose you want to Find the Total Sales corresponding to each Manufacturer then which of the following formula you will use?
+- { FIXED ([Manufacturer]) : SUM([Sales in thousands]) }
+
+
+Find out the number of Manufacturers in the Car Sales Dataset using Calculated Fields
+- 30 (Using the COUNTD function in Calculated Fields we can find the number of Manufacturers in the Dataset which comes out to be 30)
+
+
+Find out the number of Manufacturers that have total sales of more than 170(in thousands)?
+- 14 (By creating and then dragging the Calculated field ‘Sales greater than 170’ and further drag the Unique manufacturer's field to Text gives us the proper breakdown regarding how many Manufacturers have sales more than 170 which coms out to be 14)
+
+
+Suppose you want to filter out the top 5 records, then which of the following Filter will be best suitable for that? (refer to Notes provided)
+- Top (The Top filter data is used to select the top or bottom ‘n’ number of records)
+
+
+Select the correct sequence flow of the filters from the below options (refer to Notes provided)
+- Extract Filter=> Data Source Filter=> Context Filter=> Dimension / Measure Filter
+
+
+Suppose you want to make sure that filter is applied on each and every sheet in our dataset, then which of the following will you select?
+- Apply to Worksheets => All using this Data Source
+
+
+Which of the following are true in the case of Dashboards in Tableau?
+- Collection of several views
+Can compare a variety of data simultaneously
+Dynamically changes with any change in the worksheet
+
+
+How can you apply Borders to a Chart in a Dashboard?
+- Layout=> Border
+
+
+Now as you have already created a dashboard, so now you want a dashboard that shows Sales related information but only for the “Passenger” vehicle type, what will do now?
+- Apply Filter to Filter out “Passenger” vehicle type and will automatically change our dashboard
+
+
+Now as you have created the dashboard for the Car Sales Dataset, so now suppose you want to study each Manufacturer individually, so which of the following options will you select for that?
+- Single Value (List)
+
+
+How can you highlight vehicle type?
+- Click More Option and go to Highlighter, further select the Field on which you want to apply to highlight in this case it is Vehicle Type.
+
+
+‘Use as Filter’ is a method when you want to use a sheet as a filter for another sheet in our Dashboard?
+- True
+
+
+Each Individual sheet in a Story is called____________ ?
+- Story point
+
+
+____________ is used to choose navigator style and design or remove the forward and back arrows?
+- The Layout Pane is used to choose the navigation style in the tableau storyboard and remove the forward & back arrows.

@@ -1,0 +1,19 @@
+Find the team that won the maximum number of matches from the dataset provided to you? Create the appropriate chart to find the team.
+- Mumbai Indians (By dragging Winner to rows and matches(Count), we can easily see that Mumbai Indians won the maximum number of matches)
+
+
+Find out in which in season did “Mumbai Indian” win the maximum number of matches?
+- 2013 (By applying a filter on Winner field as “Mumbai Indian” and further creating a Bar chart with Season field and count of matches and further arranging them in descending order, we get season 2013 as the season with maximum wins for “Mumbai Indian”)
+
+
+How many matches were won by Mumbai Indians in their home stadium (Wankhede Stadium) in the Year 2019?
+- 5(In the Bar Chart created in the previous question, by simply dragging the “Venue” field to color, we can get a stacked bar chart that breaks down into each individual venue where the team won matches)
+
+
+With the help of Maps, find out which city has hosted the maximum number of matches?
+- Mumbai (With the help of Maps, we can observe that Mumbai has hosted the maximum number of matches i.e. 101)
+
+
+
+Now Mumbai Indians want to select the captain for their team for next season, so they decide to look at the player that had been player of the match for the maximum number of times. Help them get the answer to it with the help of tableau.
+- RG Sharma (We can easily observe that RG Sharma has won the title for Player of the Match maximum number of times by dragging Player of the match in rows and Count matches in column along with applying filters on Winners as Mumbai Indian)

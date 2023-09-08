@@ -1,0 +1,33 @@
+Which Room Type has the Maximum Number of Listing?
+- Entire room/apt has the maximum number of listings which is 8,304 (Room_type in column -> drag listing_id into label and keep COUNT)
+
+
+Suppose you want to create a new field which will represent the Total Earnings, then which of the following fields you will use?
+- We can calculate Total earnings by multiplying Price and Number of Reviews considering the number of reviews as the total number of bookings.
+
+
+With the help of the Bar Chart find out the Top 3 Host names in terms of Total Earnings?
+- By creating a Bar Chart with Host name as Rows and creating a new column “Total earning” as column and after that sorting the chart in descending order, we get the Host Name of top 3 performers in terms of Total Earnings
+
+
+Study the relationship between Price and Earnings for different Host Ids and find out the correct observations
+- By creating a Bar Chart we can easily find out that Sea Breeze has the maximum price while Michael has the maximum earnings, so these both can be termed as outliers. 
+Also, there is no particular trend between Price and Total Earnings
+And at last, we can notice that Host Name- Cindy, Surf Style & Carrie all have Price more than 20k.
+
+
+Find the Count of Listing in “Allied Gardens” under the property type “Townhouse”.
+- 0
+
+
+Find the region which has the Maximum Total Earnings?
+- By plotting a Map Visualisation with Cities plotted on it in accordance with Total earnings based on Size, we can clearly see that San Diego has the maximum size among all the cities and hence it has the maximum earnings.
+
+
+Using a Pie Chart find out which room type has the maximum number of beds?
+- Entire home/apt
+
+
+We also have price and availability data, So create a line chart to know how the avg price has fluctuated over time for the available properties
+See how the price has fluctuated over time, and find out how many times the average daily price was above 400?
+- 1

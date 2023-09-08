@@ -1,0 +1,53 @@
+With the help of Heat Map, try to find out the Sales of Ford cars in September For both 2011 & 2012?
+- 188.7
+
+
+Which of the following are true regarding the Sale of cars of various Manufacturers over a Year?
+- The sale of Chevrolet cars in 2011 was 379, and the year 2012 was 175, so we can say that their sale of cars has decreased from 2011 to 2012.
+The sale of Ford cars in the year 2011 was 309, and in the year 2012 was 1713, so we can say that their sale of cars increased from 2011 to 2012.
+Using the heat map it can be seen easily that sales of cars for the years 2011 and 2012 combined were maximum for August, i.e. 1,184, so we can say it is the Best Selling Month.
+
+
+What is the percentage increase in Honda cars from 2011 to 2012?
+- 96.5
+From the Heat Map, we can observe that the Sale of Honda cars in the year 2011 was 200 and year 2012 was 393, so we can say there is an increase of 
+(393-200)/200 
+= 193/200 
+= 0.965*100 
+= 96.5%
+
+
+Using Map visualisation, find out which state has Maximum sales?
+- Michigan
+
+
+Using Map visualisation, find out Sales(in thousands) recorded by the Texas state
+- 1120
+
+
+Using a Dual Axis chart, find out the difference between Sales(in thousands) and Price(in thousands) for the year 2011
+- Firstly, we need to create a Dual Axis chart to find out the Sales and Price for the year 2011, which comes out to be 3717 and 2176 respectively.Subtracting them gives us 3717-2176 = 1541 
+
+
+What will be the change in the chart when we click on “Synchronize Axis” as shown below?
+- Synchronize axis will change the scale of Fuel Capacity axis from 0-150 to 0-250 i.e. same as the scale for Fuel efficiency axis.
+
+
+What will be the output if we click on the “Show Header” option as shown below?
+- Fuel Capacity Axis will disappear
+
+
+How can we create a duplicate of any sheet?
+- Right-click on the existing sheet name at the bottom and select ‘Duplicate’
+
+
+Which is the third-largest selling car brand for the year 2012?
+- Honda
+
+
+Find out the manufacturer name whose Model has maximum Fuel Efficiency for the Year 2012?
+- Chevrolet
+
+
+You can see that Texas accounts for a large number of Sales, with multiple manufacturers being situated in Texas being one of the reasons. So now find out which Manager is contributing the most to Texas’s sales.(Global manager list is provided to you on a different sheet)?
+- Sheri Gordan
