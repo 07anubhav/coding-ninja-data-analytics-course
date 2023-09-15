@@ -14,6 +14,24 @@ With the help of Maps, find out which city has hosted the maximum number of matc
 - Mumbai (With the help of Maps, we can observe that Mumbai has hosted the maximum number of matches i.e. 101)
 
 
+Find out the toss decision ratio for Mumbai Indians whenever they have won a match?
+- Bat-25, Field- 31 (By Applying filter on “Winner” and “Toss Winner” field to get data related to only Mumbai Indians, and after that drag Toss Decision and match count to get the breakdown as Bat- 25, Field -31)
+
 
 Now Mumbai Indians want to select the captain for their team for next season, so they decide to look at the player that had been player of the match for the maximum number of times. Help them get the answer to it with the help of tableau.
 - RG Sharma (We can easily observe that RG Sharma has won the title for Player of the Match maximum number of times by dragging Player of the match in rows and Count matches in column along with applying filters on Winners as Mumbai Indian)
+
+
+With the help of “mostrunsaverage_strikerate”, Create a new field StrikeRate which can help us compare various players and find out the names of players having top 3 StrikeRate? (StrikeRate can be calculated by dividing Total Runs with Number of Balls played by each player)
+- KMDN Kulasekara, B Stanlake, Umar Gul (By creating a Calculated field “StrikeRate '' and after that creating a Bar Chart with this field created and Batsman field and further arranging it in descending order, we can easily get the names of Batsman having top 3 strike rate)
+
+
+After getting the names of top 3 strikerate batsman, drag and drop “numberofballs” to Color mark and sort it. What do you observe now, write down your insights on the final dashboard created for this project.
+- Having higher strike rate doesn't always mean that the player is performing really good, as in case of B Stanlake & KMDN Kulasekara have highest strike rate, but actually they have only played 2 balls and scored 5 runs which has in turn made their strike rate highest(i.e. 250)
+Further V Kohli has played maximum number of balls and ideally he should have topped the charts according to balls played and runs made.
+After sorting the data according to the number of balls played, we get the top 3 players as V. Kohli, SK Raina, RG Sharma.
+
+
+What type of relationship do you observe between the number of balls a Batsman plays and number of times he gets Out.
+- Positive Correlation (0.972649803)
+

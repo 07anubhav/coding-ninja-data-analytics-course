@@ -1,0 +1,34 @@
+In the original dataset, all the stores are selling almost the same number of items except the OUT010 and OUT019 stores. Why do these stores have sales of a less number of items?
+- Because missing values are present for these stores' data.
+
+
+After analyzing the Outlet type, most of the customers prefer to buy the items from which type of stores?
+- Supermarket Type 1 (df['Outlet_Type'].value_counts())
+
+
+Are the stores with medium sizes have high sales than others?
+- There are significantly higher sales for medium size outlets. (df['Outlet_Size'].value_counts())
+
+
+Which of the following pair of Outlet Types and Outlet Sizes have maximum Item Outlet Sales?
+- (Supermarket Type 3, Medium)
+The visualization of the aggregation of sales based on the Outlet Types and Outlet can be done using the following formula:
+ df.groupby(['Outlet_Type','Outlet_Size']).agg({'Item_Outlet_Sales':np.mean}).plot.bar()
+X=plt.gca().xaxis
+So, according to this bar graph, the ("Supermartket Type 3", and "Medium") have the maximum sales.
+
+
+After analyzing the correlation of various features with “ItemOutletSales”, which feature can be considered most important?
+- Item_MRP (print(df['Item_Outlet_Sales'].corr(df['Item_MRP'])))
+
+
+What is the relationship between Item Outlet Sales and Item Visibility?
+- There is a negative correlation between these two features. (print(df['Item_Outlet_Sales'].corr(df['Item_Visibility'])))
+
+
+How can Item types help in predicting Outlet sales?
+- There is a significant difference is sales of various item types. (There is a significant difference in the Item Outlet sales of different item types. So this can be important for predicting Item Outlet sales)
+
+
+Which are the correct steps in data analysis for EDA?
+- Data Collection -> Data Distribution -> Data Cleaning -> Data Preparation

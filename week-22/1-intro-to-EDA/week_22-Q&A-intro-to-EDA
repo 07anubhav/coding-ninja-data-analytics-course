@@ -1,0 +1,116 @@
+After going through the introduction to EDA, which of the following do you think best describes it?
+- EDA is an approach for analyzing data using visualization and statistical tools. While performing exploratory analysis on any dataset, we increase our knowledge of the various features in that data. We get to know the distribution of these features, whether outliers are present, and how they can affect the results.
+
+
+A dataset is created after collecting the data from various sources based on the requirements. Roy a newly appointed data analyst wants to provide this dataset directly to a machine-learning model, but his lead engineer is advising him to first perform EDA before feeding this dataset to a model. Why do you think performing EDA is important?
+- An EDA is a thorough examination meant to uncover the underlying structure of a data set.
+It exposes trends, patterns, and relationships between features that are not readily apparent.
+Doing EDA eventually leads to the selection of an appropriate predictive model.
+
+
+In the big mart dataset, which of the following type of data is collected?
+- Store products sales data
+
+
+What is the main aim for performing EDA on the BigMart dataset?
+- To analyse the sale of each product at a particular store.
+
+
+What is Google Colab?
+- 1. It is mostly suitable for artificial intelligence, machine learning, deep learning & data analysis.
+2. It allows anybody to write and execute arbitrary python code through the browser.
+3. It is a product from Google Research.
+
+
+Choose the following features which are true for Google Colab but not for Jupyter notebooks:
+- It is cloud-based platform.
+File syncing is possible in various locations.
+File can be shared with different accounts.
+
+
+What do the following lines do when running in colab?
+from google.colab import drive
+drive.mount(‘/content/gdrive’)
+- It helps in attaching the google drive account to google colab.
+It creates a folder with this location “/content/drive/My Drive/” and all the google drive content can be accessed from here.
+
+
+For the provided libraries and their usage, choose the correct matching.
+- 1. Pandas library is used for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
+2. Numpy library is used for Linear Algebra operations. NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+3. Matplotlib is used for graph plotting. Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+4. Seaborn is used for advanced Visualization. Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+
+You have been provided with a dataset that contains 10 rows. This dataset has been stored in pandas dataframe called df. Which of the following commands will produce an error for this dataframe?
+- None
+1. df.head(4): It will print the first 4 rows of the dataframe.
+2. df.head(13): If n is larger than the number of rows, this function returns all.
+3. df.head(-2): For negative values of n, this function returns all rows except the last |n| rows, equivalent to df[:n].
+
+
+After learning about the features of the Big Mart dataset, what do you think is the correct description of the “Item_Visibility” feature?
+- The correct description for “Item_Visibility” is that it shows the percentage of the total display area of all products in a store allocated to the particular product.
+
+
+What are the main reasons for changing the datatype of a feature while performing EDA on a dataset?
+- Pandas is not always able to detect the correct datatype for each column.
+Datatypes provide a basic understanding of a particular feature.
+When analyzing various features if a string datatype is detected as an integer, then it will be challenging to perform certain operations like adding two columns.
+
+
+Which of the following data type conversion will produce a ValueError?
+Note: Consider no null value is present in the dataset.
+- df['Item_Identifier'].astype('int')
+
+
+You have analyzed the basic information about each feature. Figure out which of these features contains null values.
+- Item_Weight
+Outlet_Size
+
+
+There is a datatype called category. It can be used where a Finite list of text values is present. After analyzing each feature, which of the following features can be converted to a category datatype?
+- Item_Fat_Content
+Outlet_Type
+
+
+The info() method of pandas' dataframe also shows the memory usage of that particular dataframe. In the case of the big mart dataset, if we use df.info(), then at the last line, it shows:
+memory usage: 799.2+ KB
+You have been assigned a task to make this dataset more memory efficient. For this, you need to know the amount of memory this dataset consumes. Which of the following line of code will help fetch the exact memory usage for the big mart dataset?
+- df.info(memory_usage='deep') (The "memory_usage" parameter of the df.info() method specifies whether the total memory usage of the DataFrame elements (including the index) should be displayed. For small datasets, it is set to "True" by default. And if it is set to "deep, " it will do deep memory introspection. With deep memory introspection, a real memory usage calculation is performed at the cost of computational resources)
+
+
+How can you display a statistics summary for all data types?
+- df.describe(include=”all”)
+
+
+How can the median be calculated using the describe method?
+- It is same as 50% of a column.
+
+
+After analyzing the descriptive summary of the “Big Mart” sales dataset. Can you find out what is the average Item Outlet Sales?
+- The average sales is the mean of the “Item_Outlet_Sales” column which is 2180.93.
+
+
+According to the descriptive statistics, what is the percentage of items whose visibility in the store is less than or equal to 0.05?
+- 50% (In the descriptive summary of the “Big mart” dataset, it can be seen that for the 50% the visibility is 0.05. It means that there are 50% of the items whose visibility in the store is less than or equal to 0.05)
+
+
+After analyzing the descriptive summary for the big mart dataset, which columns have missing values present?
+- Item weight
+
+
+After analyzing the min, max, percentiles and mean for the “ItemOutletSales” descriptive summary, what do you think correctly describes it?
+- The “Item_Outlet_Sales” column is right skewed (After analyzing the min, max and percentiles, it can be seen that till 50% the maximum values which got covered are till 1794. But the mean of this column is around 2181. So, it can be concluded that most of the values lie on the left side of the mean and this column is right skewed)
+
+
+To plot multiple pairwise bivariate distributions in a dataset, you can use the _____ function.
+- Pair plot
+
+
+In the Item_Weight column, we found out that there are multiple peaks present in the distribution plot. What does this represent?
+- It represents multiple modes (The data distribution which contains multiple peaks represents that there are multiple modes present. This is also multimodal data. It can be significant as different categories can be created using these modes)
+
+
+After analyzing the pair plot for “ItemOutletSales” can you tell if there is a linear correlation between “ItemMRP” and “ItemOutlet_Sales”?
+- There is a positive linear correlation.

@@ -1,0 +1,39 @@
+After analyzing the sample of the dataset, it has been noted that some of the values present are marked “?”. Can you predict why this symbol is present in some of the features?
+- It indicates that the data is missing for that cell (In this dataset, the null values or the missing data are represented as “?”. Some of the datasets have missing values present in indirect ways like “NA” or “N/A” or in our case “?”)
+
+
+In the cars dataset, which of the following features do you think should be converted to int64 format for making them more useful as per their description?
+- Normalized-losses
+Horsepower
+Peak-rpm
+
+
+In the cars dataset, which of the following features do you think should be converted to float64 format for making them more useful as per their description?
+- Bore, Stroke
+
+
+After analyzing the highway-mpg and city-mpg descriptions, which of the following do you think is true?
+- Most of the vehicles are having mpg of less than 35.
+The city-mpg has a right-skewed distribution.
+
+
+According to the description of the “symboling” feature, which of the following value is not present in the dataset?
+- -3 ()
+
+
+After analyzing the descriptive summary of the dataset, you need to find out which of the following columns contains missing values.
+- price
+
+
+Which “body-style” is preferred most according to the cars dataset?
+- sedan
+
+
+“Curb weight is the weight of the vehicle including a full tank of fuel and all standard equipment. It does not include the weight of any passengers, cargo, or optional equipment. Curb weight is considered the closest weight to the actual weight of the vehicle.”
+Which of the following features is not impacting the “Curb Weight” column, after analyzing the correlation?
+- Horsepower (The horsepower is not significantly correlated with the “Curb Weight” column. Curb weight is mostly correlated with engine size, length, width and wheelbase which is expected as these add up to the weight of the car)
+
+
+“Cars are initially assigned a risk factor symbol associated with their price. Then, if it is riskier (or less), this symbol is adjusted by moving it up (or down) the scale. Actuaries call this process "symboling". A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe.”
+After analyzing the “symboling” feature using the correlation matrix, which of the following feature is correlating with this feature?
+- Normalized-losses
