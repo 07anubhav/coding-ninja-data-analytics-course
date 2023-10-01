@@ -1,0 +1,134 @@
+You have been assigned a task to create a list of the unique types of items present in the big mart dataset. Which of the following command would you choose to output this list?
+- df["Item_Type"].unique()
+
+
+Which of the following commands is correct got dropping duplicate values from a Pandas dataframe 'df' except for one occurrence in place?
+- df.drop_duplicates(subset = None, keep = 'last', inplace = True)
+df.drop_duplicates(subset = None, keep = 'first', inplace = True)
+
+
+Why is there a need to remove or impute the missing data?
+- Missing data can lead to a lack of precision in the statistical analysis.
+Because missing data can create problems for analyzing data.
+Missing data can lead to incorrect results.
+
+
+For the numerical datatype, which of the following imputation technique can be used?
+- By replacing the missing values using the mean of the feature.
+By replacing the missing values using the median of the feature.
+By replacing the missing values using a random number.
+
+
+Match the following:
+a. MAR
+b. MNAR
+c. MCAR
+1. Values are randomly missing from your dataset.
+2. Missing data has a relationship with other variables. However, the actual values that are missing are random.
+3. The values of the missing data are dependent on the unobserved values for that column itself.
+- a: 2, b: 3, c: 1
+
+
+In a survey of employees, most of the male candidates have not filled the data related to depression status but almost all the females comfortably filled the data related to their state of depression. What kind of missing data is present in this survey?
+- MAR
+
+
+When conducting an exam on a new type of acid, the batteries ran out for a batch of samples, what kind of missing data will be present in this exam?
+- MCAR
+
+
+Which of the following is an example of MNAR?
+- Heavy (or light) people may be less likely to disclose their weight. (In this case, the missing values for the weight column are not randomly missing because it is known that the people who are overweight or underweight are most likely to not provide information regarding their weight. So this comes under MNAR)
+
+
+Naman teaches 420 students in batches. There are 10 batches he teaches daily. He wants to do a survey in all of his batches and find out the basic details regarding the students like their age, gender, class in which they study and family income. In the following three questions you need to answer them based on the given info here.
+1. There is a total of 70 entries which are missing from the Family Income Table.
+2. The number of missing values for the age column is more in the batches where the number of girls is more. There is a total of 50 missing values present in the age column.
+3. There are 7 values missing from the gender column.
+4. There are no missing values present in the class column.
+According to the data provided what do you think is the correct description of the missing value present in the “Age” column?
+- MAR
+
+
+Naman teaches 420 students in batches. There are 10 batches he teaches daily. He wants to do a survey in all of his batches and find out the basic details regarding the students like their age, gender, class in which they study and family income. In the following three questions you need to answer them based on the given info here.
+1. There is a total of 70 entries which are missing from the Family Income Table.
+2. The number of missing values for the age column is more in the batches where the number of girls is more. There is a total of 50 missing values present in the age column.
+3. There are 7 values missing from the gender column.
+4. There are no missing values present in the class column.
+Which of the following columns can be ignored from imputation after analyzing missing values present in them?
+- Gender
+
+
+Naman teaches 420 students in batches. There are 10 batches he teaches daily. He wants to do a survey in all of his batches and find out the basic details regarding the students like their age, gender, class in which they study and family income. In the following three questions you need to answer them based on the given info here.
+1. There is a total of 70 entries which are missing from the Family Income Table.
+2. The number of missing values for the age column is more in the batches where the number of girls is more. There is a total of 50 missing values present in the age column.
+3. There are 7 values missing from the gender column.
+4. There are no missing values present in the class column.
+For Which of the following columns, the missing values can be handled using the imputation techniques?
+- Income, Age
+
+
+Which of the following conditions should meet before removing the rows that contain missing data?
+- The missing data present should be of MCAR type.
+There should be less than 5% missing data.
+After removing the rows, the data should not change the distribution.
+
+
+When to use the mean for the missing data imputation?
+- When the distribution is normal.
+
+
+What are the disadvantages of using mean/median imputation methods?
+- 1. Imputation reduces the variance of the imputed variables.
+2. Imputation shrinks standard errors, which invalidates most hypothesis tests and the calculation of confidence interval.
+3. Imputation does not preserve relationships between variables such as correlations.
+
+
+What does the term 'outlier' mean?
+- An extreme value at either end of a distribution (In statistics, an outlier is a data point that differs significantly from other observations. An outlier is a data point that lies at a larger distance from other data points on each end of the data lin)
+
+
+Which of the following statement is TRUE?
+- Outliers should be handled based on the nature of business in which dataset is used.
+If the outlier in question is:
+1. A measurement error or data entry error, correct the error if possible. If you can’t fix it, remove that observation because you know it’s incorrect.
+2. Not a part of the population you are studying (i.e., unusual properties or conditions), you can legitimately remove the outlier.
+3. A natural part of the population you are studying, you should not remove it.
+
+
+How do outliers affect the mean?
+- An outlier can affect the mean by being unusually small or unusually large.
+
+
+Ten students take an exam and receive the following scores:
+                    [0, 88, 90, 92, 94, 95, 95, 96, 97, 99]
+Is there any outlier present in the scores and how is it affecting the mean?
+- Yes, the outlier is present and it is shifting the mean to the left of the distribution.
+
+
+In which of the following situations outliers are important to have in the dataset?
+- Analyzing the credit card fraud pattern (When analyzing the credit card fraud pattern, there will be less amount of data which was reported as fraud. So these can become outliers in the dataset but these outliers are important as we will be doing our analysis focusing on the fraud target)
+
+
+Which of the following methods are used for outlier detection?
+- Z score: The standard cut-off value for finding outliers is Z degrees +/- 3 or greater than zero. The probability distribution below shows the distribution of Z scores in a standard normal distribution. Z degrees above +/- 3 are so severe that you can barely see the shading below the curve.
+- Standard deviation: For this outlier detection method, the mean and standard deviation of the residuals are calculated and compared. If a value is a certain number of standard deviations away from the mean, that data point is identified as an outlier. The specified number of standard deviations is called the threshold.
+- IQR: We can use the IQR method of identifying outliers to set up a “fence” outside of Q1 and Q3. Any values that fall outside of this fence are considered outliers. To build this fence we take 1.5 times the IQR and then subtract this value from Q1 and add this value to Q3.
+
+
+Which method is used to detect outliers when the distribution of a feature is normal?
+- Z score
+
+
+Why is the threshold range of z-score 3 used for outliers detection?
+- Because it is 3 standard deviation away from both sides of the mean (A z-score of 2.5 indicates that the data point is 2.5 standard deviations away from the mean. Usually, z-score = 3 is considered as a cut-off value to set the limit. Therefore, any z-score greater than +3 or less than -3 is considered an outlier which is pretty much similar to the standard deviation method)
+
+
+In the big mart dataset, for the Item_MRP column which of the following do you think, is the appropriate method after analyzing the distribution of this feature?
+- IQR (As the distribution is right-skewed, so it is appropriate to use the IQR method to treat the outliers in the case of “Item_MRP”.)
+
+
+After analysing the outliers for all the features present in the Big mart dataset, find out which of the following contains outliers.
+- Item_Visibility
+Item_Weight
+Item_MRP

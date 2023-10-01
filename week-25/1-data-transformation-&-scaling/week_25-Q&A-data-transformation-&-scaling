@@ -1,0 +1,57 @@
+Which of the following commands can be used to select a subset of columns in a dataset using the pandas library?
+- df.filter(['Item_Identifier','Item_Weight'])
+df.iloc[:,[0,1,2,3,5,11]]
+df.loc([‘Item_Identifier','Item_Weight'])
+
+
+Which of the following statements are true regarding the df.loc method but not for df.iloc?
+- It is a label-based method to select particular rows or columns.
+Data can be selected by providing boolean series.
+
+
+Consider a data frame df with columns ['A', 'B', 'C', 'D'] and rows ['r1', 'r2', 'r3'].
+What does the following expression do?
+df.iloc[:, lambda x : [0,3]] 
+- Selects Column 'A' and 'D' (.iloc[] is primarily integer position based (from 0 to length-1 of the axis), but may also be used with a boolean array. In our case df.iloc will select column 0 and 3 namely A and D.)
+
+
+Which of the following ways can be used when using the pandas' filter method?
+- df.filter(like='Item_', axis=1)
+df.filter(items=['Item_Identifier','Item_Weight'])
+
+
+You have been provided with a dataset that contains the following columns:
+Columns: [‘emp_no’, ‘dept_no’, ‘birth_date’, ‘emp_name’, ‘gender’, ‘hire_date’, ‘dept_name’, ‘dept_manager’].
+Your task is to filter the dataset so that only department information is present in the filtered dataset.
+Find the columns that are suitable for Department information.
+- dept_no, dept_name, dept_manager
+
+
+Which of the following argument is used to set the key to be used for merging two data frames?
+- on
+
+
+After exploring the pandas “merge” method, which of the following parameters can be used to merge two datasets if the key columns have different names in both of the datasets?
+df1 = pd.DataFrame({'employee': ['Bob', 'Jake', 'Lisa', 'Sue'],'group': ['Accounting', 'Engineering', 'Engineering', 'HR']})
+df2 = pd.DataFrame({'name': ['Bob', 'Jake', 'Lisa', 'Sue'],'salary': [70000, 80000, 120000, 90000]})
+In these two data frames, the “employee” column for df1 is the same as the “name” column for df2. For this example, using which parameters will you merge these two data frames if the key columns are “employee” for df1 and “name” for df2?
+- left_on
+right_on 
+(If the datasets to be merged  have different key column names, then the right_on and left_on parameters are used. Left_on is used for column or index level names to join on in the left DataFrame. Right_on is used for column or index level names to join on in the right DataFrame.)
+
+
+Consider a data frame df with columns ['A', 'B', 'C', 'D'] and rows ['r1', 'r2', 'r3']. Which of the following expression filters the rows whose column B values are greater than 45?
+- df[df.B > 45]
+
+
+Which of the following methods is used to group data of a data frame, based on specific columns?
+- groupby
+
+
+Which of the following(s) is/are feature scaling techniques?
+- Standardization
+Normalization
+
+
+Do all features need to be scaled when using machine learning algorithms?
+- No, only numerical features need to be scaled. (As the numerical features can have different ranges of values so these features need to be scaled. Other types of features do not need to be scaled. Also, the target variable should not be scaled we need to predict the exact value not the scaled value)

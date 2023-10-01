@@ -1,0 +1,10 @@
+After analyzing the duplicated values present in the cars.csv dataset, find out for which maker, the highest number of duplicate values are present in the filtered dataset.
+- toyota
+
+
+For which column in the cars.csv dataset, should be completely removed after analyzing the missing values?
+- None of the above
+
+
+In the cars.csv dataset, which of the following columns can be imputed?
+- normalized-losses
